@@ -1,5 +1,7 @@
 import React from "react";
-import {Containeer, Dl, Dt, Header} from  "./styled"
+import {Button1,Button2, Containeer, DivLeft,DivRight, Dl, Dt, Header, ModalContainer, Paragrafo, T2} from  "./styled"
+import {Teste} from  "./animations"
+
 export default function Home(){
 
     return( 
@@ -7,10 +9,12 @@ export default function Home(){
     <Header>
         <Dl>
             <Dt>
+                
                 SOLUÇÕES
             </Dt>
             <Dt>
                 VISÃO GERAL
+                
             </Dt>
             <Dt>
                 PRODUTOS
@@ -18,14 +22,38 @@ export default function Home(){
 
             <Dt>
                 PREÇOS
+               
             </Dt>
             <Dt>
-                
+            <Button1>Fale com um especialista</Button1>
             </Dt>
         </Dl>
 
     </Header>
-    Home
+    <div style={{display:"flex"}}>
+        <DivLeft>
+            <ModalContainer>
+
+                <T2>SQUAD BI</T2>
+                <Paragrafo>
+                Atenda aos requisitos empresariais mais exigentes.<br/>
+                Mantenha a precisão, consistência e segurança dos dados<br/> 
+                em tempo real em toda a sua organização com o Power BI.<br/>
+                Usamos toda nossa experiência multidisciplinar para entregar<br/> 
+                a melhor solução para nossos clientes, com impactos mais<br/> 
+                eficientes no menor tempo possível.<br/>
+                </Paragrafo>
+                <br/>
+                <Button2>Fale com um especialista</Button2>
+            </ModalContainer>
+        </DivLeft>
+
+        <DivRight>
+          
+                <img style={{marginTop:"10%",marginLeft:"10%"}}  src="./Business Plan.gif" width="400"/>
+
+        </DivRight>
+    </div>
    </Containeer>
         )
 }
