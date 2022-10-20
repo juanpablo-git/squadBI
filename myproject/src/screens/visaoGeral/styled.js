@@ -3,16 +3,26 @@ import styled from "styled-components"
 export const T2 = styled.h2`
 
 `
-
+export const TituloContainer = styled.div`
+width:100%;
+display:flex;
+justify-content:center;
+padding-top:20px;
+padding-bottom: 20px;
+`
 export const ModalContainer = styled.div`
+
 display: flex;
 background-color: aqua;
 
 `
 
 export const Paragrafo = styled.p`
-font-size:12px ;
+margin-left:  20px;
+font-size:12px;
 width:50%;
+transition-property: opacity, left, top, height;
+  transition-duration: 3s, 5s;
 `
 
 export const Containeer = styled.div`
