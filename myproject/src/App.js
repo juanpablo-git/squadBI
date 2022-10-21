@@ -1,5 +1,5 @@
 
-import React,{useEffect} from "react";
+import React,{useEffect,useState} from "react";
 import {Container} from "./App.style"
 import Home from "./screens/home";
 import VisaoGeral from "./screens/visaoGeral";
@@ -9,8 +9,7 @@ function App() {
   return (
     <Container   >
       <Home />
-     
-      <VisaoGeral  />
+      <VisaoGeral   />
     </Container>
   );
 }
