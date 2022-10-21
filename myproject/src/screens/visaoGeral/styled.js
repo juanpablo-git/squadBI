@@ -1,8 +1,10 @@
 import styled from "styled-components"
-
+import {fadeIn} from "../home/animations"
 export const T2 = styled.h2`
 
-`
+.red-bg {
+  background-color: red;
+}`
 export const TituloContainer = styled.div`
 width:100%;
 display:flex;
@@ -11,18 +13,17 @@ padding-top:20px;
 padding-bottom: 20px;
 `
 export const ModalContainer = styled.div`
-
 display: flex;
-background-color: aqua;
 
 `
 
 export const Paragrafo = styled.p`
+/* animation: 2s ${props => props.isIntersection && fadeIn }; */
 margin-left:  20px;
 font-size:12px;
 width:50%;
-transition-property: opacity, left, top, height;
-  transition-duration: 3s, 5s;
+${props => props.isIntersection ? 'transform:scale(1);' : 'transform:scale(0);'};
+transition: .3s ease-in-out;
 `
 
 export const Containeer = styled.div`
