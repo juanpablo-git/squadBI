@@ -5,11 +5,6 @@ import Home from "./screens/home";
 import VisaoGeral from "./screens/visaoGeral";
 
 function App() {
-  useEffect(()=>{
-    window.addEventListener('scroll',(e)=>{
-      console.log(e)
-    })
-  })
 
   return (
     <Container   >

@@ -1,5 +1,5 @@
 import styled from "styled-components"
-
+import {fadeIn} from "../home/animations"
 export const T2 = styled.h2`
 
 `
@@ -9,11 +9,16 @@ display:flex;
 justify-content:center;
 padding-top:20px;
 padding-bottom: 20px;
+opacity: ${(props => props.opacity)};
+animation:3s ${fadeIn} ;
+transition: 2s;
 `
 export const ModalContainer = styled.div`
 
 display: flex;
-background-color: aqua;
+opacity: ${(props => props.opacity)};
+animation:3s ${fadeIn} ;
+transition: 2s;
 
 `
 
