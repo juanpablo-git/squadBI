@@ -22,8 +22,8 @@ display:flex;
 justify-content:center;
 padding-top:20px;
 padding-bottom: 20px;
-opacity: ${(props => props.opacity)};
-animation:5s ${fadeIn} ease-out;
+opacity: ${props => props.opacity };
+animation:2s ${fadeIn} ease-out;
 transition: 2s;
 `
 
@@ -32,8 +32,8 @@ color: #f2f4f7;
 display: flex;
 justify-content: center;
 align-items: center;
-opacity: ${(props => props.opacity)};
-animation:5s ${fadeIn} ease-out ;
+opacity: ${props => props.opacity };
+animation:2s ${fadeIn} ease-out ;
 transition: 2s;
 height: 200px;
 `
@@ -52,8 +52,8 @@ display: flex;
 flex-wrap: wrap;
 justify-content:center;
 align-items: center;
-opacity: ${(props => props.opacity)};
-animation: 5s ${fadeIn} ease-out ;
+opacity: ${props => props.opacity };
+animation: 2s ${fadeIn} ease-out ;
 transition: 2s;
 
 `

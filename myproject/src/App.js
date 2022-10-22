@@ -8,13 +8,15 @@ import VisaoGeral from "./screens/visaoGeral";
 function App() {
   const [opacity,setOpacity] = useState(0)
   window.document.addEventListener('scroll',(e)=>{
-      
-   
-    let elem = document.querySelector('#mc');
-    let rect = elem.getBoundingClientRect();
-    if(rect.top < 450){
+    
+    console.log(window.scrollY)
+    if(window.scrollY > 340){
+     
         setOpacity(1)
+
     }else{
+      
+
         setOpacity(0)
     }
 })
