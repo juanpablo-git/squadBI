@@ -9,7 +9,9 @@ function App() {
   const [opacity,setOpacity] = useState(0)
   window.document.addEventListener('scroll',(e)=>{
     
-    console.log(window.scrollY)
+    let elem = document.querySelector('#mc');
+   
+    console.log(window.scrollY,elem.offsetTop)
     if(window.scrollY > 340){
      
         setOpacity(1)
