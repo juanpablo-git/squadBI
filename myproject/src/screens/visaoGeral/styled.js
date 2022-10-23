@@ -80,7 +80,7 @@ export const DivTop = styled.div`
 export const DivButton = styled.div`
 background: linear-gradient(180deg, #101828 0%, rgba(16, 24, 40, 0.89) 100%);
 padding: 10px;
-    width: 100%;
+    width: 100vw;
     height: 50%;
 
 `
