@@ -6,7 +6,7 @@ list-style: none;
 `
 export const Dt = styled.li`
 padding-top: 10px;
-font-size: 14px;
+font-size: 15px;
 padding-bottom: 10px;
 
 
@@ -19,7 +19,7 @@ font-weight: 400;
 export const TituloContainer = styled.div`
 width:100%;
 display:flex;
-justify-content:center;
+justify-content: center;
 padding-top:20px;
 padding-bottom: 20px;
 opacity: ${props => props.opacity == 1 ? 1 : 0 };
@@ -30,20 +30,22 @@ transition: 2s;
 export const ModalContainerButton = styled.div`
 color: #f2f4f7;
 display: flex;
-justify-content: center;
-align-items: stretch;
+justify-content:center;
+align-items: center;
 opacity: ${props => props.opacity == 1 ? 1 : 0 };
 animation:2s ${fadeIn} ease-out ;
 transition: 2s;
-height: 200px;
+height: 500px;
 `
 
 export const ListaEsquerda = styled.div`
-width: 500px;
 height: auto;
+width: 430px;
 `
 export const ListaDireita = styled.div`
-width: 500px;
+margin-left: 50px;
+height: auto;
+width: auto;
 `
 
 export const ModalContainer = styled.div`
@@ -51,7 +53,7 @@ export const ModalContainer = styled.div`
 display: flex;
 flex-direction: row;
 /* flex-wrap: wrap; */
- justify-content:center;
+ justify-content:space-around;
 align-items: center;
 opacity: ${props => props.opacity == 1 ? 1 : 0 };
 animation: 2s ${fadeIn} ease-out ;
@@ -80,7 +82,8 @@ export const DivTop = styled.div`
     margin-bottom: 90px;
 `
 export const DivButton = styled.div`
-background: linear-gradient(180deg, #101828 0%, rgba(16, 24, 40, 0.89) 100%);
+/* background: linear-gradient(180deg, #101828 0%, rgba(16, 24, 40, 0.89) 100%); */
+background-color: #151d2c;
     width: 100vw;
     height: 50%;
 
