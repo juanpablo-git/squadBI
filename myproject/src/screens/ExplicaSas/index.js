@@ -1,5 +1,5 @@
 import React from "react"
-import { Container ,ContainerTitle,DivText,Text} from "./styled"
+import { Container, ContainerTitle, DivText, Text } from "./styled"
 
 export function DefinindoSaas(params) {
     return (
@@ -19,9 +19,7 @@ export function DefinindoSaas(params) {
             </DivText>
             {/* imagem */}
 
-            <div>
-                <img src="./Server.gif" height="300" />
-            </div>
+           
 
             {/* texto */}
             <DivText>
@@ -36,6 +34,9 @@ export function DefinindoSaas(params) {
                     distância.
                 </Text>
             </DivText>
+            <div>
+                <img src="./Server.gif" height="300" />
+            </div>
 
         </Container>
 

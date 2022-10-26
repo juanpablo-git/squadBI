@@ -6,8 +6,14 @@ export default function Home(){
 
     return( 
    <Containeer>
-    <Header>
+    <Header >
         <Dl>
+            <Dt>
+            <img src="./Logo-Secundária-Degrade-Escuro.png" width="200" />
+            </Dt>
+        </Dl>
+        <Dl>
+
             <Dt>
                 
                 SOLUÇÕES
@@ -50,7 +56,7 @@ export default function Home(){
 
         <DivRight>
           
-                <img style={{marginTop:"10%",marginLeft:"10%"}}  src="./Business Plan.gif" width="400"/>
+                <img   src="./Business Plan (2).gif" width="400"/>
 
         </DivRight>
     </div>

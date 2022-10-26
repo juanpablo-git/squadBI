@@ -22,7 +22,7 @@ display:flex;
 justify-content:center;
 padding-top:20px;
 padding-bottom: 20px;
-opacity: ${props => props.opacity == 1 ? 1 : 0 };
+opacity: ${props => props.opacity };
 animation:2s ${fadeIn} ease-out;
 transition: 2s;
 `
@@ -31,8 +31,8 @@ export const ModalContainerButton = styled.div`
 color: #f2f4f7;
 display: flex;
 justify-content: center;
-align-items: stretch;
-opacity: ${props => props.opacity == 1 ? 1 : 0 };
+align-items: center;
+opacity: ${props => props.opacity };
 animation:2s ${fadeIn} ease-out ;
 transition: 2s;
 height: 200px;
@@ -40,31 +40,28 @@ height: 200px;
 
 export const ListaEsquerda = styled.div`
 width: 500px;
-height: auto;
 `
 export const ListaDireita = styled.div`
 width: 500px;
+
 `
 
 export const ModalContainer = styled.div`
 
 display: flex;
-flex-direction: row;
-/* flex-wrap: wrap; */
- justify-content:center;
+flex-wrap: wrap;
+justify-content:center;
 align-items: center;
-opacity: ${props => props.opacity == 1 ? 1 : 0 };
+opacity: ${props => props.opacity };
 animation: 2s ${fadeIn} ease-out ;
 transition: 2s;
-width: 100vw;
 
 `
 
 export const Paragrafo = styled.p`
-
-margin-top: 20px;
-
-
+margin-left:  20px;
+font-size:12px;
+width:50%;
 `
 
 export const Containeer = styled.div`
@@ -81,7 +78,8 @@ export const DivTop = styled.div`
 `
 export const DivButton = styled.div`
 background: linear-gradient(180deg, #101828 0%, rgba(16, 24, 40, 0.89) 100%);
-    width: 100vw;
+padding: 10px;
+    width: 100%;
     height: 50%;
 
 `

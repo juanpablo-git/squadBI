@@ -1,11 +1,13 @@
 import styled from "styled-components"
 import {fadeIn} from "./animations"
 export const Containeer = styled.div`
-background-color: #101828;
+background-color: #0c2b5d;
 width: 100vw;
 height: 100vh;
 `
 export const Header = styled.header`
+justify-content: space-around;
+display: flex;
 width: 100%;
 height: 15%;
 animation: 2s ${fadeIn};
@@ -15,22 +17,21 @@ export const Dl = styled.dl`
 display: flex;
 flex-direction: row;
 justify-content: center;
+
 align-items: center;
 padding-top: 20px;
 `
 export const Dt = styled.dt`
 color: #fff;
-font-size: 21px;
+font-size: 15px;
 margin-left: 20px;
 `
 
 export const Button1 = styled.button`
 border: none;
-margin-left: 20px;
-font-size: 24px;
-letter-spacing: -1px;
-width: 350px;
-height: 65px;
+font-size: 15px;
+width: 200px;
+height: 50px;
 border-radius: 32px;
 color: #fff;
 background:linear-gradient(180deg, rgba(0, 205, 194, 0.20131) 0%, rgba(50, 129, 250, 0.932385) 0.01%, #02CFC6 100%);
@@ -60,8 +61,11 @@ export const DivLeft = styled.div`
 
 `
 export const DivRight = styled.div`
-    width: 50%;
-    height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 50%;
+height: 100vh;
 
 `
 export const T2 = styled.h2`

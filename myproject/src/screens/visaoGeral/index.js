@@ -4,24 +4,26 @@ export default function VisaoGeral({ opacity }) {
     return (
         <Containeer  >
             <DivTop>
-                <TituloContainer opacity={opacity} id="mc">
-                    <T2>Visão Geral</T2>
+               
+                <ModalContainer opacity={opacity.mc0} >
+                    {/* <div >
+                    <img  src="./home.png" width="500" />
+                    </div> */}
+                    <div style={{minWidth:"400px",maxWidth:"500px"}} >
+                    <TituloContainer opacity={opacity.mc0} id="mc">
+                    <T2>Quem Somos</T2>
                 </TituloContainer>
-                <ModalContainer opacity={opacity} >
-                    <img id="t2" src="./Vision statement.gif" width="380" />
-
-                    <Paragrafo  id="p1">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        Why do we use it?
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                        <br />
-                        <br />
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        Why do we use it?
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                    <Paragrafo >
+                        O Squad Bi é uma plataforma de Bi & Analitics inovadora que pretende levar a cultura de gestão inteligente para empresas.
+                
                     </Paragrafo>
+                    <Paragrafo>
+                        Com o objetivo de gerar estratégias através de dados brutos em relatórios e dashboards e automatizar o compartilhamento deles entre a equipe.
+                    </Paragrafo>
+                    <Paragrafo>
+                        Por lidar com informações sensiveis que serão o suporte dos negócios, a essência da plataforma precisou ser feita para comunicar confiança, credibilidade e inovação sem muita formalidade.
+                    </Paragrafo>
+                    </div>
                 </ModalContainer>
             </DivTop>
 
@@ -31,12 +33,12 @@ export default function VisaoGeral({ opacity }) {
             <DivButton>
 
 
-                <TituloContainer opacity={opacity}>
-                    <T2 style={{ color: "#f2f4f7" }}>Porquê a SquadBI? </T2>
+                <TituloContainer opacity={opacity.mc1}>
+                    <T2 style={{ color: "#f2f4f7" }}>Porquê a Squad BI? </T2>
                 </TituloContainer>
 
 
-                <ModalContainerButton opacity={opacity}>
+                <ModalContainerButton opacity={opacity.mc1}>
                     <ListaEsquerda>
                         <Dl>
                             <Dt>
