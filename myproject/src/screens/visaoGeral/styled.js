@@ -28,7 +28,7 @@ transition: 2s;
 `
 
 export const ModalContainerButton = styled.div`
-color: #f2f4f7;
+color: #000;
 display: flex;
 justify-content:center;
 align-items: center;
@@ -53,7 +53,7 @@ export const ModalContainer = styled.div`
 display: flex;
 flex-direction: row;
 /* flex-wrap: wrap; */
- justify-content:space-around;
+ justify-content:center;
 align-items: center;
 opacity: ${props => props.opacity == 1 ? 1 : 0 };
 animation: 2s ${fadeIn} ease-out ;
@@ -83,7 +83,7 @@ export const DivTop = styled.div`
 `
 export const DivButton = styled.div`
 /* background: linear-gradient(180deg, #101828 0%, rgba(16, 24, 40, 0.89) 100%); */
-background-color: #151d2c;
+background-color:#d5defd;
     width: 100vw;
     height: 50%;
 

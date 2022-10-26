@@ -34,7 +34,7 @@ export default function VisaoGeral({ opacity }) {
 
 
                 <TituloContainer opacity={opacity.mc1}>
-                    <T2 style={{ color: "#f2f4f7" }}>Porquê a Squad BI? </T2>
+                    <T2 style={{ color: "#000" }}>Porquê a Squad BI? </T2>
                 </TituloContainer>
 
 
@@ -65,7 +65,7 @@ export default function VisaoGeral({ opacity }) {
                     </ListaEsquerda>
                     <ListaDireita>
                         {/* <Dl> */}
-                            <img src="./Design team.gif" height="300" />
+                            <img src="./Design team(1).gif" height="300" />
                         {/* </Dl> */}
                         
                        
