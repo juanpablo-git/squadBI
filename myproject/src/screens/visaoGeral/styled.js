@@ -49,17 +49,15 @@ width: auto;
 `
 
 export const ModalContainer = styled.div`
-
 display: flex;
 flex-direction: row;
-/* flex-wrap: wrap; */
- justify-content:center;
+justify-content:center;
 align-items: center;
 opacity: ${props => props.opacity == 1 ? 1 : 0 };
 animation: 2s ${fadeIn} ease-out ;
 transition: 2s;
 width: 100vw;
-
+background-color: #D5DEFD ;
 `
 
 export const Paragrafo = styled.p`
@@ -70,7 +68,7 @@ margin-top: 20px;
 `
 
 export const Containeer = styled.div`
-background-color: #F5F5F5;
+background-color: #D5DEFD ;
 width: 100vw;
 height: auto;
 padding-top:50px;
