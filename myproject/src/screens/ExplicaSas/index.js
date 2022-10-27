@@ -7,7 +7,7 @@ export function DefinindoSaas(params) {
             <DivText >
 
                 <Text>
-                 <h1>Utilizamos o que tem de melhor na computação em nuvem</h1>
+                 <h1>Oferecemos a nossa plataforma como serviço SaaS</h1>
                 </Text>
 
 
