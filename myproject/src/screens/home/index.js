@@ -54,11 +54,7 @@ export default function Home(){
             </ModalContainer>
         </DivLeft>
 
-        <DivRight>
-          
-                <img   src="./Business Plan (2).gif" width="400"/>
-
-        </DivRight>
+       
     </div>
    </Containeer>
         )

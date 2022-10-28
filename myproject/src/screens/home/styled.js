@@ -1,7 +1,11 @@
 import styled from "styled-components"
 import {fadeIn} from "./animations"
 export const Containeer = styled.div`
-background-color: #0c2b5d;
+background-image: url("./africano.png") ;
+ height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
 width: 100vw;
 height: 100vh;
 `

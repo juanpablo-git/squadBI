@@ -70,13 +70,14 @@ margin-top: 20px;
 `
 
 export const Containeer = styled.div`
-background-color: #F5F5F5;
+background-color:#d5defd;
 width: 100vw;
 height: auto;
 padding-top:50px;
 
 `
 export const DivTop = styled.div`
+background-color:#d5defd;
     width: 100vw;
     height: 50%;
     margin-bottom: 90px;

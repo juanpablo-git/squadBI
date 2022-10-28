@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 display: flex;
-background-color: #f5f5f5;
+background: linear-gradient(180deg, #D5DEFD 0%, #F5F5F5 17.76%);;
 justify-content:center;
 align-items: flex-end;
 width: 100vw;

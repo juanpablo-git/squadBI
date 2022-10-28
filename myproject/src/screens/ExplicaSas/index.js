@@ -40,8 +40,6 @@ export function DefinindoSaas(params) {
 
                 <img src="./Server.gif" height="310" />
             </DivText>
-            <div>
-            </div>
 
         </Container>
 

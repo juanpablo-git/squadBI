@@ -10,12 +10,15 @@ export function Formulario() {
                 </ContainerText>
                 <ContainerForm>
                     <div >
-                        <input style={{ margin: 10 }} placeholder="Nome" />
-                        <input style={{ margin: 10 }} placeholder="E-mail" />
-                        <textarea style={{ margin: 10 }} cols="41" rows="10" placeholder="Digite sua mensagem">
+                        <input style={{ margin: 10,outline:'none',border:"none"}} placeholder="Nome" />
+                        <input style={{ margin: 10,outline:'none',border:"none" }} placeholder="E-mail" />
+                        <textarea style={{ margin: 10 ,outline:'none',border:"none"}} cols="35" rows="10" placeholder="Digite sua mensagem">
 
                         </textarea>
-                        <input type="submit" value="Enviar" />
+                        <div>
+
+                        <input style={{ margin: 10 ,outline:'none',border:"none",fontSize:20,paddingLeft:10,paddingRight:10}}  type="submit" value="Enviar" />
+                        </div>
                     </div>
                 </ContainerForm>
             </ModalContainer>
