@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { fadeIn } from "./animation"
 
 export const Container = styled.div`
 background:linear-gradient(180deg, rgba(249, 250, 251, 0) 0%, rgba(249, 250, 251, 0) 0.01%, #D5DEFD 58.85%);
@@ -6,23 +7,25 @@ display:flex;
 justify-content:center;
 align-items: center;
 width: 100vw;
+margin-top: 100px;
 `
 export const ModalContainer = styled.div`
-margin-top: 100px;
-border-radius: 30px;
-background-color: #3A16F6;
-display: flex;
-justify-content: space-between;
-
 width:77vw;
+display: flex;
+justify-content: space-around;
+align-items: center;
 `
 export const ContainerText = styled.div`
+
 width: 400px;
+height: 200px;
+opacity: ${props => props.opacity};
+transition: 5s;
 `
 export const ContainerForm = styled.div`
-background-color: yellow;
- width: 500px;
- height: 400px;
- display: flex;
-
+display: flex;
+flex-direction: column;
+animation: 1s ${props => props.opacity == 1 ?fadeIn : ""};
+opacity: ${props => props.opacity};
+transition: 1s;
 `
