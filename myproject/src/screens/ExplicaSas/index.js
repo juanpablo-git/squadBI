@@ -1,10 +1,10 @@
 import React from "react"
 import { Container, ContainerTitle, DivText, Text } from "./styled"
 
-export function DefinindoSaas(params) {
+export function DefinindoSaas({opacity}) {
     return (
-        <Container>
-            <DivText >
+        <Container opacity={opacity.mc2}>
+            <DivText  >
 
                 <Text>
                  <h1>Oferecemos a nossa plataforma como serviço SaaS</h1>
