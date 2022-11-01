@@ -59,10 +59,14 @@ background:linear-gradient(180deg, rgba(0, 205, 194, 0.20131) 0%, rgba(50, 129, 
 }
 `
 export const DivLeft = styled.div`
-    width: 50%;
-    height: 100vh;
+    width: 47%;
+    height: 100%;
     animation: 2s ${fadeIn};
-
+    display: flex;
+    align-items:center ;
+    justify-content: end;
+    flex-wrap: wrap;
+    
 `
 export const DivRight = styled.div`
 display: flex;
@@ -76,13 +80,13 @@ export const T2 = styled.h2`
 font-size: 50px;
 line-height: 61px;
 font-weight: 500;
+
 `
 export const ModalContainer = styled.div`
+width: auto;
+height: auto;
 color: #fff;
-    width: 617px;
-    height:150px ;
-    font-size: 20px;
-    margin: 20% 0% 0% 20%;
+font-size: 20px;
 `
 export const Paragrafo = styled.p`
 font-size: 18px;

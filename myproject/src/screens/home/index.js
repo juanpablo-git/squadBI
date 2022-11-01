@@ -36,10 +36,9 @@ export default function Home(){
         </Dl>
 
     </Header>
-    <div style={{display:"flex"}}>
+    {/* <div style={{display:"flex"}}> */}
         <DivLeft>
             <ModalContainer>
-
                 <T2>SQUAD BI</T2>
                 <Paragrafo>
                 Atenda aos requisitos empresariais mais exigentes.<br/>
@@ -55,7 +54,7 @@ export default function Home(){
         </DivLeft>
 
        
-    </div>
+    {/* </div> */}
    </Containeer>
         )
 }
