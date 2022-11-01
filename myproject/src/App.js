@@ -2,6 +2,7 @@
 import React,{useEffect,useState} from "react";
 import {Container} from "./App.style"
 import { DefinindoSaas } from "./screens/ExplicaSas";
+import { Foter } from "./screens/footer/index";
 import { Formulario } from "./screens/Formulario";
 import Home from "./screens/home";
 import { PorqueSquad } from "./screens/PorqueSquadBI";
@@ -71,6 +72,7 @@ console.log(window.scrollY)
       <VisaoGeral opacity={opacity}  />
       <DefinindoSaas opacity={opacity} />
       <Formulario opacity={opacity} />
+      <Foter/>
     </Container>
   );
 }
