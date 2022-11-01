@@ -4,6 +4,7 @@ import {fadeIn} from "../home/animations"
 
 export const Container = styled.div`
 display: flex;
+flex-wrap: wrap;
 background: linear-gradient(180deg, #D5DEFD 0%, #F5F5F5 17.76%);;
 justify-content:center;
 align-items: flex-end;
@@ -16,7 +17,7 @@ transition: 3s;
 export const DivText = styled.div`
 
 margin-top: 30px;
-font-size: 13px;
+/* font-size: 13px; */
 width: 400px;
 transition: 3s;
 

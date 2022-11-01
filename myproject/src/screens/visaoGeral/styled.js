@@ -29,6 +29,7 @@ transition: 2s;
 
 export const ModalContainerButton = styled.div`
 color: #000;
+flex-wrap: wrap;
 display: flex;
 justify-content:center;
 align-items: center;
