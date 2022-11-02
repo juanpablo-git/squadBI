@@ -6,26 +6,50 @@ background:linear-gradient(180deg,rgba(245,245,245,1) 0%, rgba(213,222,253,1) 10
 display:flex; 
 justify-content:center;
 align-items: center;
-width: 100vw;
+flex-wrap: wrap;
+width: 100%;
 padding-top:  120px;
 `
 export const ModalContainer = styled.div`
-width:77vw;
+background-color: violet;
+width:40%;
+
+`
+export const ContainerText = styled.div`
+
+max-width: 40%;
+min-width: auto;
+max-height: 200px;
+min-height: 10px;
+opacity: ${props => props.opacity};
+transition: 5s;
 display: flex;
 justify-content: space-around;
 align-items: center;
 `
-export const ContainerText = styled.div`
-
-width: 400px;
-height: 200px;
-opacity: ${props => props.opacity};
-transition: 5s;
-`
 export const ContainerForm = styled.div`
 display: flex;
 flex-direction: column;
+flex-wrap: wrap;
 animation: 1s ${props => props.opacity ? fadeIn : " "};
 opacity: ${props => props.opacity};
 transition: 1s;
+background-color: #ffff;
+padding: 30px;
+border-radius: 10px;
+max-width: 50%;
+min-width: 10%;
+`
+
+export const Input = styled.input `
+margin-bottom:10px;
+margin-right:10px;
+border-color: transparent;
+border-bottom: 2px #61616a solid ;
+outline: none;
+
+&:focus{
+    background-color: antiquewhite;
+    border:  2px #61616a solid
+
 `

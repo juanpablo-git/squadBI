@@ -20,8 +20,6 @@ export const TituloContainer = styled.div`
 width:100%;
 display:flex;
 justify-content: center;
-padding-top:20px;
-padding-bottom: 20px;
 opacity: ${props => props.opacity == 1 ? 1 : 0 };
 animation:2s ${fadeIn} ease-out;
 transition: 2s;
@@ -54,6 +52,7 @@ display: flex;
 flex-direction: row;
 justify-content:center;
 align-items: center;
+flex-wrap: wrap;
 opacity: ${props => props.opacity == 1 ? 1 : 0 };
 animation: 2s ${fadeIn} ease-out ;
 transition: 2s;
@@ -63,28 +62,29 @@ background-color: #D5DEFD ;
 
 export const Paragrafo = styled.p`
 
-margin-top: 20px;
+
 
 
 `
 
 export const Containeer = styled.div`
 background-color:#d5defd;
-width: 100vw;
+width: 100%;
 height: auto;
-padding-top:50px;
+padding-top: 100px;
+padding-bottom: 100px;
 
 `
 export const DivTop = styled.div`
 background-color:#d5defd;
     width: 100vw;
     height: 50%;
-    margin-bottom: 90px;
 `
 export const DivButton = styled.div`
 /* background: linear-gradient(180deg, #101828 0%, rgba(16, 24, 40, 0.89) 100%); */
 background-color:#d5defd;
     width: 100vw;
     height: 50%;
+padding-top: 100px;
 
 `
