@@ -9,6 +9,7 @@ align-items: center;
 flex-wrap: wrap;
 width: 100%;
 padding-top:  120px;
+padding-bottom: 120px;
 `
 export const ModalContainer = styled.div`
 background-color: violet;
@@ -19,8 +20,8 @@ export const ContainerText = styled.div`
 
 max-width: 40%;
 min-width: auto;
-max-height: 200px;
-min-height: 10px;
+max-height: 10%;
+min-height: 10%;
 opacity: ${props => props.opacity};
 transition: 5s;
 display: flex;

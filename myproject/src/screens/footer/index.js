@@ -22,7 +22,7 @@ export function Foter() {
                 <div style={{ display: "flex", flexDirection: "row", justifyContent: "center", alignItems: "center", width: "500px", height: "150px" }}>
                     <img src="./Logo-Secundária-Degrade-Escuro.png" width="400px" />
                 </div>
-                <div style={{width: "60%", justifyContent: "end", display: "flex",backgroundColor:"ActiveCaption" }}>
+                <div style={{width: "60%", justifyContent: "end", display: "flex" }}>
                     conteúdo
                 </div>
                 {/* <div style={{ width: "200px" }}>
