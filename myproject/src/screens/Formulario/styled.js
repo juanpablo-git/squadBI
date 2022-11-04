@@ -12,13 +12,14 @@ padding-top:  120px;
 export const ModalContainer = styled.div`
 width:77vw;
 display: flex;
+flex-wrap: wrap;
 justify-content: space-around;
 align-items: center;
 `
 export const ContainerText = styled.div`
 
-width: 400px;
-height: 200px;
+width: 43%;
+height:auto;
 opacity: ${props => props.opacity};
 transition: 5s;
 `
