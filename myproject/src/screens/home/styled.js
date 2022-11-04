@@ -59,7 +59,7 @@ background:linear-gradient(180deg, rgba(0, 205, 194, 0.20131) 0%, rgba(50, 129, 
 }
 `
 export const DivLeft = styled.div`
-    width: 47%;
+    width: 49.5%;
     height: 100%;
     animation: 2s ${fadeIn};
     display: flex;

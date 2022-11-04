@@ -25,7 +25,7 @@ transition: 3s;
 
 export const Text = styled.div`
 margin-top: 20px;
-width: 400px;
+width: 100%;
 `
 
 export const ContainerTitle = styled.div`

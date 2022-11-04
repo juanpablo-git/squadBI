@@ -36,7 +36,6 @@ export default function Home(){
         </Dl>
 
     </Header>
-    {/* <div style={{display:"flex"}}> */}
         <DivLeft>
             <ModalContainer>
                 <T2>SQUAD BI</T2>
@@ -54,7 +53,6 @@ export default function Home(){
         </DivLeft>
 
        
-    {/* </div> */}
    </Containeer>
         )
 }
