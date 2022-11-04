@@ -1,5 +1,5 @@
 import styled from "styled-components";
 
 export const Footer = styled.footer`
-width: 100vw;
+width: 100%;
 `

@@ -7,7 +7,7 @@ export function Formulario({opacity}) {
                     <h1> Entre em contato com um de nossos especialistas e descruba como nós podemos ajudar a sua empresa.</h1>
                 </ContainerText>
                 <ContainerForm opacity={opacity.mc3}>
-                    <div style={{display:"flex",justifyContent:"space-between",flexWrap:"wrap"}}>
+                    <div style={{display:"flex",justifyContent:"space-between",width:"100%",flexWrap:"wrap"}}>
                         <Input placeholder="Nome" />
                         <Input style={{marginRight:"0"}}  placeholder="E-mail" />
                     </div>

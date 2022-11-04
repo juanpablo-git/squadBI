@@ -6,7 +6,10 @@ export default function Home(){
 
     return( 
    <Containeer>
-    <Header >
+    <Header>
+        
+    </Header>
+    {/* <Header >
         <Dl>
             <Dt>
             <img src="./Logo-Secundária-Degrade-Escuro.png" width="200" />
@@ -35,7 +38,7 @@ export default function Home(){
             </Dt>
         </Dl>
 
-    </Header>
+    </Header> */}
         <DivLeft>
             <ModalContainer>
                 <T2>SQUAD BI</T2>

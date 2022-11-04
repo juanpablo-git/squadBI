@@ -8,7 +8,7 @@ flex-wrap: wrap;
 background: linear-gradient(180deg, #D5DEFD 0%, #F5F5F5 17.76%);;
 justify-content:center;
 align-items: flex-end;
-width: 100vw;
+width: 100%;
 opacity: ${props => props.opacity || 0};
 animation: 3s ${fadeIn} ;
 transition: 3s;

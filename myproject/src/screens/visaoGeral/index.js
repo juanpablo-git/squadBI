@@ -7,7 +7,7 @@ export default function VisaoGeral({ opacity }) {
 
                 <ModalContainer opacity={opacity.mc0} >
                     <div style={{minWidth:"auto",maxWidth:500}} >
-                        <img src="./home1.png" style={{minWidth:"auto",maxWidth:500}}  />
+                        <img src="./home1.png" style={{width:"100%"}}  />
                     </div>
                     <div style={{ minWidth: "auto", maxWidth: "500px" }} >
                         <TituloContainer style={{marginBottom:50}} opacity={opacity.mc0} id="mc">

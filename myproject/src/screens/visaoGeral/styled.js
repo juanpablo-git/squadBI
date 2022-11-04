@@ -56,7 +56,7 @@ flex-wrap: wrap;
 opacity: ${props => props.opacity == 1 ? 1 : 0 };
 animation: 2s ${fadeIn} ease-out ;
 transition: 2s;
-width: 100vw;
+width: 100%;
 background-color: #D5DEFD ;
 `
 
@@ -77,13 +77,13 @@ padding-bottom: 100px;
 `
 export const DivTop = styled.div`
 background-color:#d5defd;
-    width: 100vw;
+    width: 100%;
     height: 50%;
 `
 export const DivButton = styled.div`
 /* background: linear-gradient(180deg, #101828 0%, rgba(16, 24, 40, 0.89) 100%); */
 background-color:#d5defd;
-    width: 100vw;
+    width: 100%;
     height: 50%;
 padding-top: 100px;
 
