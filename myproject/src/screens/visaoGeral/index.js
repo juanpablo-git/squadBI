@@ -10,7 +10,7 @@ export default function VisaoGeral({ opacity }) {
                         <img src="./home1.png" style={{minWidth:"auto",maxWidth:500}}  />
                     </div>
                     <div style={{ minWidth: "auto", maxWidth: "500px" }} >
-                        <TituloContainer opacity={opacity.mc0} id="mc">
+                        <TituloContainer style={{marginBottom:50}} opacity={opacity.mc0} id="mc">
                             <T2>Quem Somos</T2>
                         </TituloContainer>
                         <Paragrafo >
@@ -34,7 +34,7 @@ export default function VisaoGeral({ opacity }) {
 
 
                 <TituloContainer opacity={opacity.mc1}>
-                    <T2 style={{ color: "#000" }}>Porquê a Squad BI? </T2>
+                    <T2 style={{ color: "#000" }}>Por quê a Squad BI? </T2>
                 </TituloContainer>
 
 
