@@ -1,15 +1,24 @@
-import React from "react";
-import {Button1,Button2, Containeer, DivLeft,DivRight, Dl, Dt, Header, ModalContainer, Paragrafo, T2} from  "./styled"
+import React,{useState} from "react";
+import {Button1,Button2,HanburguerButton, Containeer, DivLeft,DivRight, Dl, Dt, Header1,Header2, ModalContainer, Paragrafo, T2} from  "./styled"
 import {Teste} from  "./animations"
+import AbsoluteMenu from "./AbsoluteMenu";
 
 export default function Home(){
-
+const [displayAbsoluteMenu,setDysplayAbsoluteMenu] = useState(0)
     return( 
    <Containeer>
-    <Header>
-        
-    </Header>
-    {/* <Header >
+    <AbsoluteMenu setDysplayAbsoluteMenu={setDysplayAbsoluteMenu} display={displayAbsoluteMenu}/>
+    <Header1>
+    <Dl>
+            <Dt>
+            <img src="./Logo-Secundária-Degrade-Escuro.png" width="200" />
+            </Dt>
+            <Dt>
+              <HanburguerButton onClick={()=>setDysplayAbsoluteMenu(!displayAbsoluteMenu)}><img src="./menu-hamburguer.svg" width="30"/></HanburguerButton>
+            </Dt>
+    </Dl>
+    </Header1>
+    <Header2 >
         <Dl>
             <Dt>
             <img src="./Logo-Secundária-Degrade-Escuro.png" width="200" />
@@ -38,7 +47,7 @@ export default function Home(){
             </Dt>
         </Dl>
 
-    </Header> */}
+    </Header2>
         <DivLeft>
             <ModalContainer>
                 <T2>SQUAD BI</T2>

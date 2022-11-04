@@ -16,8 +16,6 @@ transition: 3s;
 
 export const DivText = styled.div`
 
-margin-top: 30px;
-/* font-size: 13px; */
 width: 400px;
 transition: 3s;
 

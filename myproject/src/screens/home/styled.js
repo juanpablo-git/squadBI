@@ -9,13 +9,29 @@ background-image: url("./africano.png") ;
 width: 100%;
 height: 100vh;
 `
-export const Header = styled.header`
+export const Header1 = styled.header`
 justify-content: space-around;
 display: flex;
 width: 100%;
 height: 15%;
 animation: 2s ${fadeIn};
+@media (min-width: 769px){
+    display: none;
+    color: purple;
+}
 `
+export const Header2 = styled.header`
+justify-content: space-around;
+display: flex;
+width: 100%;
+height: 15%;
+animation: 2s ${fadeIn};
+@media (max-width: 769px){
+    display: none;
+    color: purple;
+}
+`
+
 
 export const Dl = styled.dl`
 display: flex;
@@ -29,6 +45,7 @@ export const Dt = styled.dt`
 color: #fff;
 font-size: 15px;
 margin-left: 20px;
+
 `
 
 export const Button1 = styled.button`
@@ -57,6 +74,18 @@ background:linear-gradient(180deg, rgba(0, 205, 194, 0.20131) 0%, rgba(50, 129, 
     opacity: 0.7;
     transition: 0.5s;
 }
+`
+export const HanburguerButton =styled.button`
+width: 50px;
+height: 50px;
+@media (min-width: 769px){
+    display: none;
+    color: purple;
+}
+@media (max-width: 768px){
+    color: purple;
+}
+
 `
 export const DivLeft = styled.div`
     width: 49.5%;
