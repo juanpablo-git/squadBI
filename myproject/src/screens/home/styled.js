@@ -78,6 +78,9 @@ background:linear-gradient(180deg, rgba(0, 205, 194, 0.20131) 0%, rgba(50, 129, 
 export const HanburguerButton =styled.button`
 width: 50px;
 height: 50px;
+background-color: white;
+border-radius: 12%;
+border: none;
 @media (min-width: 769px){
     display: none;
     color: purple;
