@@ -18,6 +18,9 @@ export const DivText = styled.div`
 
 width: 400px;
 transition: 3s;
+margin-top:100px
+
+
 
 `
 

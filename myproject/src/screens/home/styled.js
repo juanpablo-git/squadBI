@@ -7,7 +7,6 @@ background-image: url("./africano.png") ;
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
 width: 100%;
-height: 100vh;
 `
 export const Header1 = styled.header`
 justify-content: space-around;
@@ -63,9 +62,10 @@ background:linear-gradient(180deg, rgba(0, 205, 194, 0.20131) 0%, rgba(50, 129, 
 `
 export const Button2 = styled.button`
 border: none;
+padding: 10px;
 font-size: 24px;
 letter-spacing: -1px;
-width: 350px;
+max-width: 350px;
 height: 65px;
 border-radius: 32px;
 color: #fff;
@@ -98,7 +98,11 @@ export const DivLeft = styled.div`
     align-items:center ;
     justify-content: end;
     flex-wrap: wrap;
-    
+    @media(max-width: 700px){
+    width: 100%;
+    justify-content: center;
+}
+
 `
 export const DivRight = styled.div`
 display: flex;
@@ -119,7 +123,11 @@ width: auto;
 height: auto;
 color: #fff;
 font-size: 20px;
+@media(max-width: 768px){
+    width: 90%;
+}
 `
 export const Paragrafo = styled.p`
 font-size: 18px;
+
 `

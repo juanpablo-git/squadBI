@@ -20,7 +20,7 @@ export function Foter() {
             </div>
             <div style={{ display: "flex",width:"100%",justifyContent:"center" }}>
                 <div style={{ display: "flex", flexDirection: "row", justifyContent: "center", alignItems: "center", width: "500px", height: "150px" }}>
-                    <img src="./Logo-Secundária-Degrade-Escuro.png" width="100%" />
+                    <img src="./Logo-Secundária-Degrade-Escuro.png" width="70%" />
                 </div>
                 <div style={{width: "60%", justifyContent: "end", display: "flex" }}>
                     conteúdo

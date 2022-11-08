@@ -76,7 +76,7 @@ padding-bottom: 50px;
 
 `
 export const DivTop = styled.div`
-background-color:#d5defd;
+    background-color:#d5defd;
     width: 100%;
     height: 50%;
 `

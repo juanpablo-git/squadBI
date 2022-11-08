@@ -24,9 +24,6 @@ width: 43%;
 height:auto;
 opacity: ${props => props.opacity};
 transition: 5s;
-display: flex;
-justify-content: space-around;
-align-items: center;
 `
 export const ContainerForm = styled.div`
 display: flex;
