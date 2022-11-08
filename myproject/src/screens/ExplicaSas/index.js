@@ -31,11 +31,7 @@ export function DefinindoSaas({opacity}) {
 
 
             </DivText>
-            {/* imagem */}
-
-           
-
-            {/* texto */}
+          
             <DivText>
 
                 <img src="./Server.gif" height="310" />

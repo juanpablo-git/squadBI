@@ -1,4 +1,3 @@
-import { useEffect, useState, useRef } from "react"
 import { Containeer, DivButton, DivTop, Dl, Dt, ListaDireita, ListaEsquerda, ModalContainer, ModalContainerButton, Paragrafo, T2, TituloContainer } from "./styled"
 export default function VisaoGeral({ opacity }) {
     return (

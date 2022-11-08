@@ -1,4 +1,4 @@
-import { Container, ContainerForm, ContainerText, Input, ModalContainer } from "./styled";
+import { Container, ContainerForm, ContainerText, Input } from "./styled";
 
 export function Formulario({opacity}) {
     return (

@@ -1,4 +1,4 @@
-import {Containeer,DivButton,DivTop,Dl,Dt,ListaDireita,ListaEsquerda,ModalContainer,ModalContainerButton,Paragrafo,T2,TituloContainer} from "./styled"
+import {DivButton,Dl,Dt,ListaDireita,ListaEsquerda,ModalContainerButton,T2,TituloContainer} from "./styled"
 export function PorqueSquad({opacity}){
     return(
         <DivButton>

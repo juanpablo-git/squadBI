@@ -1,4 +1,4 @@
-import { Dl,Dt } from "../styled"
+import { Dl} from "../styled"
 import { ContainerMenu } from "./styled"
 
 export default ({display,setDysplayAbsoluteMenu})=>{

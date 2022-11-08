@@ -1,6 +1,5 @@
 import React,{useState} from "react";
-import {Button1,Button2,HanburguerButton, Containeer, DivLeft,DivRight, Dl, Dt, Header1,Header2, ModalContainer, Paragrafo, T2} from  "./styled"
-import {Teste} from  "./animations"
+import {Button1,Button2,HanburguerButton, Containeer, DivLeft, Dl, Dt, Header1,Header2, ModalContainer, Paragrafo, T2} from  "./styled"
 import AbsoluteMenu from "./AbsoluteMenu";
 
 export default function Home(){
