@@ -39,7 +39,8 @@ height: 500px;
 
 export const ListaEsquerda = styled.div`
 height: auto;
-width: 430px;
+width: 90%;
+max-width: 500px;
 `
 export const ListaDireita = styled.div`
 margin-left: 50px;

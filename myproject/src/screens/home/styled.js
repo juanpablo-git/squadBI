@@ -1,12 +1,15 @@
 import styled from "styled-components"
 import {fadeIn} from "./animations"
 export const Containeer = styled.div`
-background-image: url("./africano.png") ;
- height: 100vh; /* You must set a specified height */
+  background-image: url("./africano.png") ;
+  height: 100vh; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
-width: 100%;
+  width: 100%;
+  @media (max-width: 769px){
+    background-image: ""
+  }
 `
 export const Header1 = styled.header`
 justify-content: space-around;
@@ -36,7 +39,6 @@ export const Dl = styled.dl`
 display: flex;
 flex-direction: row;
 justify-content: center;
-
 align-items: center;
 padding-top: 20px;
 `
@@ -44,7 +46,6 @@ export const Dt = styled.dt`
 color: #fff;
 font-size: 15px;
 margin-left: 20px;
-
 `
 
 export const Button1 = styled.button`
@@ -88,7 +89,6 @@ border: none;
 @media (max-width: 768px){
     color: purple;
 }
-
 `
 export const DivLeft = styled.div`
     width: 49.5%;
@@ -102,7 +102,6 @@ export const DivLeft = styled.div`
     width: 100%;
     justify-content: center;
 }
-
 `
 export const DivRight = styled.div`
 display: flex;
@@ -110,7 +109,6 @@ justify-content: center;
 align-items: center;
 width: 50%;
 height: 100vh;
-
 `
 export const T2 = styled.h2`
 font-size: 50px;
@@ -129,5 +127,4 @@ font-size: 20px;
 `
 export const Paragrafo = styled.p`
 font-size: 18px;
-
 `

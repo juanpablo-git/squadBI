@@ -20,7 +20,8 @@ align-items: center;
 `
 export const ContainerText = styled.div`
 
-width: 43%;
+width: 90%;
+max-width: 500px;
 height:auto;
 opacity: ${props => props.opacity};
 transition: 5s;
