@@ -91,13 +91,19 @@ border: none;
 
 `
 export const DivLeft = styled.div`
-    width: 49.5%;
+    width: 46.7%;
     height: 100%;
     animation: 2s ${fadeIn};
     display: flex;
     align-items:center ;
     justify-content: end;
     flex-wrap: wrap;
+    @media (max-width: 768px){
+    width:90%;
+    justify-content: center;
+    align-items:center ;
+    }
+
     
 `
 export const DivRight = styled.div`
@@ -119,6 +125,11 @@ width: auto;
 height: auto;
 color: #fff;
 font-size: 20px;
+@media (max-width: 768px){
+    width:90%;
+    justify-content: center;
+    align-items:center ;
+    }
 `
 export const Paragrafo = styled.p`
 font-size: 18px;

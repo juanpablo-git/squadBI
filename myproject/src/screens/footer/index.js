@@ -2,8 +2,12 @@ import { Footer } from "./styled"
 export function Foter() {
     return (
         <Footer style={{ background: "#1d3990" }}>
+
             <div >
-                <ul style={{ display: "flex", flexDirection: "row", justifyContent: "center", listStyle: "none", color: "#fff" }}>
+                <div style={{ display: "flex", paddingTop: "50px", width: "100%", justifyContent: "center" }}>
+                    <img src="./Logo-Secundária-Degrade-Escuro.png" width="15%" />
+                </div>
+                {/* <ul style={{ display: "flex", paddingTop: "15px", flexDirection: "row", justifyContent: "center", listStyle: "none", color: "#fff" }}>
                     <li style={{ margin: "10px" }}>
                         SOLUÇÕES
                     </li>
@@ -16,17 +20,26 @@ export function Foter() {
                     <li style={{ margin: "10px" }}>
                         PREÇOS
                     </li>
+                </ul> */}
+
+                <ul style={{ display: "flex", flexWrap:"wrap",paddingTop: "50px",paddingBottom:"50px", flexDirection: "row", justifyContent: "center", listStyle: "none", color: "#fff" }}>
+                    <li style={{ margin: "10px" }}>
+                        <div style={{display:"flex"}}>
+                        <img src="./Group 12.svg" width="20" /> <p style={{marginLeft:"10px"}}>@squadbi</p>
+                        </div>
+                    </li>
+                    <li style={{ margin: "10px" }}>
+                        <div style={{display:"flex"}}>
+                        <img src="./linkedin.svg" width="20" /> <p style={{marginLeft:"10px"}}>@squadbi</p>
+                        </div>
+                    </li>
+                    <li style={{ margin: "10px" }}>
+                        <div style={{display:"flex"}}>
+                        <img src="./mail.svg" width="23"/> <p style={{marginLeft:"10px"}}>squadbi.contato@dominio.com</p>
+                        </div>
+                    </li>
                 </ul>
             </div>
-            <div style={{ display: "flex",width:"100%",justifyContent:"center" }}>
-                <div style={{ display: "flex", flexDirection: "row", justifyContent: "center", alignItems: "center", width: "500px", height: "150px" }}>
-                    <img src="./Logo-Secundária-Degrade-Escuro.png" width="100%" />
-                </div>
-                <div style={{width: "60%", justifyContent: "end", display: "flex" }}>
-                    conteúdo
-                </div>
-            </div>
-
         </Footer>
     )
 }

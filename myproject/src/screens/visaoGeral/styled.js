@@ -35,11 +35,16 @@ opacity: ${props => props.opacity == 1 ? 1 : 0 };
 animation:2s ${fadeIn} ease-out ;
 transition: 2s;
 height: 500px;
+
 `
 
 export const ListaEsquerda = styled.div`
 height: auto;
 width: 430px;
+@media (max-width: 768px){
+        width:90%;
+    }
+
 `
 export const ListaDireita = styled.div`
 margin-left: 50px;
@@ -58,6 +63,9 @@ animation: 2s ${fadeIn} ease-out ;
 transition: 2s;
 width: 100%;
 background-color: #D5DEFD ;
+@media (max-width: 768px){
+    width:90%;
+    }
 `
 
 export const Paragrafo = styled.p`
@@ -74,11 +82,22 @@ height: auto;
 padding-top: 100px;
 padding-bottom: 50px;
 
+
+
 `
 export const DivTop = styled.div`
 background-color:#d5defd;
     width: 100%;
     height: 50%;
+    @media (max-width: 768px){
+        display: flex;
+        flex-wrap:wrap ;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    }
+ 
+   
 `
 export const DivButton = styled.div`
 /* background: linear-gradient(180deg, #101828 0%, rgba(16, 24, 40, 0.89) 100%); */
@@ -86,5 +105,7 @@ background-color:#d5defd;
     width: 100%;
     height: 50%;
 padding-top: 100px;
+
+
 
 `
