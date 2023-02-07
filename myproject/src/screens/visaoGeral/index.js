@@ -4,16 +4,56 @@ export default function VisaoGeral({ opacity }) {
     return (
         <Containeer  >
             <DivTop>
-
-                <ModalContainer opacity={opacity.mc0} >
-                    <div style={{minWidth:"auto",maxWidth:500}} >
-                        <img src="./home1.png" style={{width:"100%"}}  />
-                    </div>
-                    <div style={{ minWidth: "auto", maxWidth: "500px" }} >
-                        <TituloContainer style={{marginBottom:50}} opacity={opacity.mc0} id="mc">
-                            <T2>Quem Somos</T2>
+            <TituloContainer style={{marginBottom:50}} opacity={opacity.mc0} id="mc">
+                            <T2>Empresas que utilizam  a SQUAD BI</T2>
                         </TituloContainer>
-                        <Paragrafo >
+                <div style={{display:"flex",width:"80%"}}>
+                    <button style={{
+                        height:50,
+                        width:55,
+                        borderRadius:"100%",
+                        border:"none",
+                        padding:10,
+                        border:".1rem solid #e4e7ec"
+
+                    }}><img src="./angulo-esquerdo.svg" style={{width:"100%",height:"100%"}} /></button>
+                {
+                    ["./Logo-Secundária-Degrade-Escuro.png","./Logo-Secundária-Degrade-Escuro.png","./Logo-Secundária-Degrade-Escuro.png","./Logo-Secundária-Degrade-Escuro.png","./Logo-Secundária-Degrade-Escuro.png","./Logo-Secundária-Degrade-Escuro.png","./Logo-Secundária-Degrade-Escuro.png"]
+                    .map(iten=>{
+                        return(
+                            <ModalContainer opacity={opacity.mc0} >
+
+                            <div style={{ minWidth: "auto", maxWidth: "500px",padding:10 }} >
+                            <img src="./Logo-Secundária-Degrade-Escuro.png"  style={{width:"100%",height:"100%"}}/>
+                            </div>
+                            </ModalContainer>
+
+
+
+                        )
+
+                    })
+                    }
+                                        <button style={{
+                        height:50,
+                        width:55,
+                        borderRadius:"100%",
+                        border:"none",
+                        padding:10,
+                        border:".1rem solid #e4e7ec"
+
+                    }}><img src="./angulo-direito.svg"  style={{width:"100%",height:"100%"}} /></button>
+
+
+                </div>
+                    
+                      
+                    {/* <div style={{minWidth:"auto",maxWidth:500}} >
+                        <img src="./home1.png" style={{width:"100%"}}  />
+                    </div> */}
+                   
+                  
+                        {/* <Paragrafo >
                             O Squad Bi é uma plataforma de Bi & Analitics inovadora que pretende levar a cultura de gestão inteligente para empresas.
 
                         </Paragrafo>
@@ -22,9 +62,7 @@ export default function VisaoGeral({ opacity }) {
                         </Paragrafo>
                         <Paragrafo>
                             Por lidar com informações sensiveis que serão o suporte dos negócios, a essência da plataforma precisou ser feita para comunicar confiança, credibilidade e inovação sem muita formalidade.
-                        </Paragrafo>
-                    </div>
-                </ModalContainer>
+                        </Paragrafo> */}
             </DivTop>
 
 
@@ -33,12 +71,13 @@ export default function VisaoGeral({ opacity }) {
             <DivButton>
 
 
-                <TituloContainer opacity={opacity.mc1}>
-                    <T2 style={{ color: "#000" }}>Por quê a Squad BI? </T2>
-                </TituloContainer>
-
+              
 
                 <ModalContainerButton opacity={opacity.mc1}>
+                <TituloContainer opacity={opacity.mc1}>
+                    <T2 >Beneficios da SQUAD BI</T2>
+                </TituloContainer>
+
                     <ListaEsquerda>
                         <Dl>
                             <Dt>

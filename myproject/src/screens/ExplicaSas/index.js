@@ -4,13 +4,18 @@ import { Container, ContainerTitle, DivText, Text } from "./styled"
 export function DefinindoSaas({opacity}) {
     return (
         <Container opacity={opacity.mc2}>
-            <DivText  >
-
-                <Text>
-                 <h1>Oferecemos a nossa plataforma como serviço SaaS</h1>
-                </Text>
-
-
+             <DivText style={{marginLeft:"10%"}}>
+            <Text>
+            <h1>Oferecemos a nossa plataforma como serviço SaaS</h1>
+            </Text>
+        </DivText>
+        <div style={{width:"100%",display:"flex",justifyContent:"center"}}>
+      
+        <div style={{display:"flex",width:"80%"}}>
+            
+                
+                <DivText  >
+                
                 <Text>
                     <ContainerTitle><h2>Entenda o serviço SaaS</h2></ContainerTitle>
                     Software como um serviço (SaaS), funciona como um provedor de serviços
@@ -18,8 +23,15 @@ export function DefinindoSaas({opacity}) {
                     Os usuários subscrevem ao software e o acessam por meio da web ou de
                     APIs do fabricante.
                 </Text>
+                </DivText>
+            {/* imagem */}
 
-                <Text>
+           
+
+            {/* texto */}
+            <DivText>
+
+            <Text>
                     <ContainerTitle><h2>Vantagens do SaaS</h2></ContainerTitle>
                     Os principais diferenciais desse modelo de nuvem são
                     a escalabilidade e a praticidade.
@@ -30,17 +42,11 @@ export function DefinindoSaas({opacity}) {
                 </Text>     
 
 
-            </DivText>
-            {/* imagem */}
-
-           
-
-            {/* texto */}
-            <DivText>
-
-                <img src="./Server.gif" height="310" />
+                {/* <img src="./Server.gif" height="310" /> */}
             </DivText>
 
+        </div>
+        </div>
         </Container>
 
     )

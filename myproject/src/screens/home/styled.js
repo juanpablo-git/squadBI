@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import {fadeIn} from "./animations"
 export const Containeer = styled.div`
-background-image: url("./africano.png") ;
+background-image: url("./background.png") ;
  height: 100vh; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -91,7 +91,7 @@ border: none;
 
 `
 export const DivLeft = styled.div`
-    width: 46.7%;
+        width: 46.7%;
     height: 100%;
     animation: 2s ${fadeIn};
     display: flex;
@@ -111,7 +111,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 width: 50%;
-height: 100vh;
+height: 80%;
+
 
 `
 export const T2 = styled.h2`

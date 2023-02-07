@@ -2,14 +2,14 @@ import styled from "styled-components";
 import { fadeIn } from "./animation"
 
 export const Container = styled.div`
-background:linear-gradient(180deg,rgba(245,245,245,1) 0%, rgba(213,222,253,1) 100%);
-display:flex; 
-justify-content:center;
-align-items: center;
-flex-wrap: wrap;
+
 width: 100%;
 padding-top:  120px;
 padding-bottom: 120px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 `
 export const ModalContainer = styled.div`
 width:77vw;
@@ -20,13 +20,14 @@ align-items: center;
 `
 export const ContainerText = styled.div`
 
-width: 43%;
+width: 100%;
 height:auto;
 opacity: ${props => props.opacity};
 transition: 5s;
 display: flex;
 justify-content: space-around;
 align-items: center;
+color: white;
 `
 export const ContainerForm = styled.div`
 display: flex;
@@ -38,8 +39,7 @@ transition: 1s;
 background-color: #ffff;
 padding: 30px;
 border-radius: 10px;
-max-width: 50%;
-min-width: 10%;
+width: 50%;
 `
 
 export const Input = styled.input `

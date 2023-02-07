@@ -17,8 +17,8 @@ function App() {
   })
   
   window.document.addEventListener('scroll',(e)=>{
+    console.log(window.scrollY)
     
-console.log(window.scrollY)
     if(window.scrollY < 400){
       setOpacity({
         mc0:0,
@@ -46,7 +46,7 @@ console.log(window.scrollY)
           mc3:0
         })
     }
-    if(window.scrollY > 1450){
+    if(window.scrollY > 1250){
       setOpacity({
         mc0:1,
         mc1:1,

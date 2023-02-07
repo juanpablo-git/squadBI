@@ -26,7 +26,7 @@ transition: 2s;
 `
 
 export const ModalContainerButton = styled.div`
-color: #000;
+color: #ffff;
 flex-wrap: wrap;
 display: flex;
 justify-content:center;
@@ -35,6 +35,10 @@ opacity: ${props => props.opacity == 1 ? 1 : 0 };
 animation:2s ${fadeIn} ease-out ;
 transition: 2s;
 height: 500px;
+width: 80%;
+background-color: #2e3295   ;
+border-radius: 25px;
+
 
 `
 
@@ -62,10 +66,14 @@ opacity: ${props => props.opacity == 1 ? 1 : 0 };
 animation: 2s ${fadeIn} ease-out ;
 transition: 2s;
 width: 100%;
-background-color: #D5DEFD ;
 @media (max-width: 768px){
     width:90%;
     }
+width: 150px;
+height: 50px;
+border-radius: 10px;
+box-shadow: 1px 5px 10px -5px black;
+margin-right: 5px;
 `
 
 export const Paragrafo = styled.p`
@@ -76,7 +84,7 @@ export const Paragrafo = styled.p`
 `
 
 export const Containeer = styled.div`
-background-color:#d5defd;
+
 width: 100%;
 height: auto;
 padding-top: 100px;
@@ -86,7 +94,6 @@ padding-bottom: 50px;
 
 `
 export const DivTop = styled.div`
-background-color:#d5defd;
     width: 100%;
     height: 50%;
     @media (max-width: 768px){
@@ -96,15 +103,23 @@ background-color:#d5defd;
     justify-content: center;
     align-items: center;
     }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column  ;
+   
  
    
 `
 export const DivButton = styled.div`
 /* background: linear-gradient(180deg, #101828 0%, rgba(16, 24, 40, 0.89) 100%); */
-background-color:#d5defd;
     width: 100%;
     height: 50%;
 padding-top: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
 
 
 
