@@ -1,8 +1,13 @@
 import styled from "styled-components"
 import {fadeIn} from "./animations"
 export const Containeer = styled.div`
+<<<<<<< HEAD
   background-image: url("./africano.png") ;
   height: 100vh; /* You must set a specified height */
+=======
+background-image: url("./background.png") ;
+ height: 100vh; /* You must set a specified height */
+>>>>>>> ba9223232cb331a1cbc58c2005f211d61cc37d7b
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
@@ -91,24 +96,40 @@ border: none;
 }
 `
 export const DivLeft = styled.div`
-    width: 49.5%;
+        width: 46.7%;
     height: 100%;
     animation: 2s ${fadeIn};
     display: flex;
     align-items:center ;
     justify-content: end;
     flex-wrap: wrap;
+<<<<<<< HEAD
     @media(max-width: 700px){
     width: 100%;
     justify-content: center;
 }
+=======
+    @media (max-width: 768px){
+    width:90%;
+    justify-content: center;
+    align-items:center ;
+    }
+
+    
+>>>>>>> ba9223232cb331a1cbc58c2005f211d61cc37d7b
 `
 export const DivRight = styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
 width: 50%;
+<<<<<<< HEAD
 height: 100vh;
+=======
+height: 80%;
+
+
+>>>>>>> ba9223232cb331a1cbc58c2005f211d61cc37d7b
 `
 export const T2 = styled.h2`
 font-size: 50px;
@@ -121,9 +142,17 @@ width: auto;
 height: auto;
 color: #fff;
 font-size: 20px;
+<<<<<<< HEAD
 @media(max-width: 768px){
     width: 90%;
 }
+=======
+@media (max-width: 768px){
+    width:90%;
+    justify-content: center;
+    align-items:center ;
+    }
+>>>>>>> ba9223232cb331a1cbc58c2005f211d61cc37d7b
 `
 export const Paragrafo = styled.p`
 font-size: 18px;

@@ -1,8 +1,10 @@
 import { Container, ContainerForm, ContainerText, Input } from "./styled";
 
-export function Formulario({opacity}) {
+export function     Formulario({opacity}) {
     return (
         <Container>
+               
+            <div style={{borderRadius:25,width:"80%",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center",backgroundColor:"#323593",justifyContent:"center",marginTop:"60px",padding:20}}>
                 <ContainerText opacity={opacity.mc3}>
                     <h1> Entre em contato com um de nossos especialistas e descruba como nós podemos ajudar a sua empresa.</h1>
                     <div style={{display:"flex",flexWrap:"wrap",justifyContent:"center",alignItems:"center"}}>
@@ -20,6 +22,7 @@ export function Formulario({opacity}) {
                         <button style={{marginTop:"20px",padding:5,borderColor:"transparent",borderBottom:"2px black solid"}}>Enviar</button>
                         
                 </ContainerForm>
+            </div>
         </Container>
     )
 }

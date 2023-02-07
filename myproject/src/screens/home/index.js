@@ -47,6 +47,10 @@ const [displayAbsoluteMenu,setDysplayAbsoluteMenu] = useState(0)
         </Dl>
 
     </Header2>
+    <div style={{
+        display: 'flex',
+        height:"85%",
+    }}>
         <DivLeft>
             <ModalContainer>
                 <T2>SQUAD BI</T2>
@@ -62,6 +66,16 @@ const [displayAbsoluteMenu,setDysplayAbsoluteMenu] = useState(0)
                 <Button2>Fale com um especialista</Button2>
             </ModalContainer>
         </DivLeft>
+        <DivRight>
+        <img src="./graphic.png" style={{
+            width:"65%"
+        }}/>
+
+
+        </DivRight>
+        </div>
+        
+       
 
        
    </Containeer>
