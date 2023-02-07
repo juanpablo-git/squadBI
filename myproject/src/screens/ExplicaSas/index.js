@@ -77,7 +77,7 @@ export function DefinindoSaas({ opacity }) {
                         </ModalContainer>
                         <ModalContainer>
                             <DivText>
-                                <img src="./pig.svg" style={{ width: "15rem" }} />
+                                <img src="./notBook.svg" style={{ width: "15rem" }} />
                                 <Text>
                                     <ContainerTitle><P1>Liberdade</P1></ContainerTitle>
                                     <P2> Reduza os custos de TI da sua empresa, diminuindo a quantidade de horas dedicada a criação de relatórios de dados.
