@@ -30,3 +30,20 @@ width: 100%;
 export const ContainerTitle = styled.div`
 margin-bottom: 20px;
 `
+export const ModalContainer = styled.div`
+    background-color:#f5f5f5;
+    box-shadow: 1px 5px 10px -5px black;
+    padding:15px;
+    margin:15px;
+    border-radius:10px;
+    max-width: 284px;
+`
+
+export const P1 = styled.p `
+font-size:1.5rem;
+`
+export const P2 = styled.p `
+color:#677186;
+font-size:0.9rem;
+max-width: 284px;
+`

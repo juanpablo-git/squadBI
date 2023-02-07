@@ -7,7 +7,7 @@ export default function VisaoGeral({ opacity }) {
             <TituloContainer style={{marginBottom:50}} opacity={opacity.mc0} id="mc">
                             <T2>Empresas que utilizam  a SQUAD BI</T2>
                         </TituloContainer>
-                <div style={{display:"flex",width:"80%"}}>
+                <div style={{display:"flex",width:"80%",backgroundColor:"black"}}>
                     <button style={{
                         height:50,
                         width:55,
@@ -16,14 +16,20 @@ export default function VisaoGeral({ opacity }) {
                         padding:10,
                         border:".1rem solid #e4e7ec"
 
+                    }} onClick={(e)=>{
+
                     }}><img src="./angulo-esquerdo.svg" style={{width:"100%",height:"100%"}} /></button>
+                    <div onScroll={(e)=>console.log(e)} onClick={(e)=>{
+                        console.log(e.target)
+                        e.target.scrollLeft += e.target.offsetLeft
+                    }} style={{display:"flex",width:"50%",overflowX:"auto",overflowY:"hidden"}}>
                 {
-                    ["./Logo-Secundária-Degrade-Escuro.png","./Logo-Secundária-Degrade-Escuro.png","./Logo-Secundária-Degrade-Escuro.png","./Logo-Secundária-Degrade-Escuro.png","./Logo-Secundária-Degrade-Escuro.png","./Logo-Secundária-Degrade-Escuro.png","./Logo-Secundária-Degrade-Escuro.png"]
+                    ["./Logo-Secundária-Degrade-Escuro.png","./Logo-Secundária-Degrade-Escuro.png","./Logo-Secundária-Degrade-Escuro.png","./Logo-Secundária-Degrade-Escuro.png","./Logo-Secundária-Degrade-Escuro.png","./Logo-Secundária-Degrade-Escuro.png","./Logo-Secundária-Degrade-Escuro.png","./Logo-Secundária-Degrade-Escuro.png","./Logo-Secundária-Degrade-Escuro.png","./Logo-Secundária-Degrade-Escuro.png"]
                     .map(iten=>{
                         return(
                             <ModalContainer opacity={opacity.mc0} >
 
-                            <div style={{ minWidth: "auto", maxWidth: "500px",padding:10 }} >
+                            <div style={{ minWidth: "auto", width: "500px",padding:10 }} >
                             <img src="./Logo-Secundária-Degrade-Escuro.png"  style={{width:"100%",height:"100%"}}/>
                             </div>
                             </ModalContainer>
@@ -34,6 +40,7 @@ export default function VisaoGeral({ opacity }) {
 
                     })
                     }
+                    </div>
                                         <button style={{
                         height:50,
                         width:55,
