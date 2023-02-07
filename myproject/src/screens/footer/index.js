@@ -3,7 +3,7 @@ export function Foter() {
     return (
         <Footer style={{ background: "#1d3990" }}>
 
-            <div >
+            <div>
                 <div style={{ display: "flex", paddingTop: "50px", width: "100%", justifyContent: "center" }}>
                     <img src="./Logo-Secundária-Degrade-Escuro.png" width="15%" />
                 </div>

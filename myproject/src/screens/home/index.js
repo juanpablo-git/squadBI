@@ -71,6 +71,7 @@ const [displayAbsoluteMenu,setDysplayAbsoluteMenu] = useState(0)
         <img src="./graphic.png" style={{
             width:"65%"
         }}/>
+    
 
 
         </DivRight>
