@@ -113,7 +113,7 @@ export default function VisaoGeral({ opacity }) {
         <div style={{width:"100%",display:"flex",justifyContent:"center"}}>
             <ModalContainerFuturo opacity={opacity.modalFuturo} >
            
-                <ModalFuturo >
+                <ModalFuturo  opacity={opacity.modalFuturo} >
 
                     <p  style={{fontSize:"2rem",padding:20}}>Te desafiamos para o futuro</p>
 

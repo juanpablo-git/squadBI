@@ -94,7 +94,9 @@ flex-direction:column;
 justify-content:center;
 align-items:center;
 z-index:1;
-animation: ${moveLeft} 1s;
+/* animation: ${moveLeft} 1s; */
+transform: ${props => props.opacity ? "translateX(0px)" : "translateX(-500px)" }; ;
+transition: 1s;
 
 
 `
