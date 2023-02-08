@@ -118,7 +118,7 @@ export default function VisaoGeral({ opacity }) {
                     <p  style={{fontSize:"2rem",padding:20}}>Te desafiamos para o futuro</p>
 
                     <p style={{fontWeight: 400,color:" #667085"}}>
-                        A Squad BI tem o propósito de trilhar com a sua empresa o caminho até às nuvens. E além delas, por meio da tecnologia te ajudar a chegar ao topo.
+                    O Squad Bi é uma plataforma de Bi & Analitics inovadora que pretende levar a cultura de gestão inteligente para empresas.
                     </p> 
                     <Button style={{marginTop:25}}>Fale com um especialista</Button>
                 </ModalFuturo>
