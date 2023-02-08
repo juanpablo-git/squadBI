@@ -15,7 +15,6 @@ export const ModalContainer = styled.div`
 border-radius:25px;
 width:80%;
 display:flex;
-flex-direction:column;
 justify-content:center;
 align-items:center;
 background:rgb(68,56,255);
@@ -23,6 +22,8 @@ background:linear-gradient(47deg, rgba(68,56,255,1) 0%, rgba(36,30,120,1) 81%);
 justify-content:center;
 margin-top:"60px";
 padding:20px;
+opacity: ${props => props.opacity};
+transition: 1s;
 `
 export const ContainerText = styled.div`
 
@@ -42,7 +43,7 @@ flex-wrap: wrap;
 animation: 1s ${props => props.opacity ? fadeIn : " "};
 opacity: ${props => props.opacity};
 transition: 1s;
-background-color: #ffff;
+/* background-color: #ffff; */
 padding: 30px;
 border-radius: 10px;
 width: 50%;
@@ -51,13 +52,11 @@ width: 50%;
 export const Input = styled.input `
 margin-bottom:10px;
 margin-right:10px;
-border-color: transparent;
+border:none;
+border-radius: 5px;
 border-bottom: 2px #61616a solid ;
 outline: none;
 
-&:focus{
-    background-color: antiquewhite;
-    border:  2px #61616a solid
-}
+padding: 5px 10px;
 
 `

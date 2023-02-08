@@ -54,14 +54,15 @@ function App() {
       setOpacity({
         mc0: 1,
         mc1: 1,
-        mc2: 1,
         modalFuturo: 1,
+        mc2: 0,
         mc3: 0
       })
 
 
     }
-    if (window.scrollY > 1368) {
+   
+    if (window.scrollY > 1774) {
       setOpacity({
         mc0: 1,
         mc1: 1,
@@ -69,9 +70,9 @@ function App() {
         modalFuturo: 1,
         mc3: 0,
       })
-
     }
-    if (window.scrollY > 1774) {
+
+    if (window.scrollY > 2670) {
       setOpacity({
         mc0: 1,
         mc1: 1,

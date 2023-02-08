@@ -5,9 +5,11 @@ import {fadeIn} from "../home/animations"
 export const Container = styled.div`
 
 width: 100%;
+height: 100vh;
 opacity: ${props => props.opacity || 0};
 animation: 3s ${fadeIn} ;
 transition: 3s;
+
 
 `
 

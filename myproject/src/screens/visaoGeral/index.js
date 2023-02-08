@@ -75,42 +75,63 @@ export default function VisaoGeral({ opacity }) {
                     <TituloContainer opacity={opacity.mc1}>
                         <T2 >Beneficios da SQUAD BI</T2>
                     </TituloContainer>
+                    <di style={{padding:20,display:"flex",justifyContent:"center"}}>
 
-                    <ListaEsquerda>
+                        <ListaEsquerda>
+                            <Dl>
+                                <Dt>
+                                    <strong>–</strong> Proficionais Qualificados
+                                </Dt>
+                                <Dt>
+                                    <strong>–</strong> Para todo projeto utilizamos metodologia ágil.
+                                </Dt>
+                                <Dt>
+                                    <strong>–</strong> Plataforma é simples de usar
+                                </Dt>
+                                <Dt>
+                                    <strong>–</strong> Utilizamos o que há de mais atual em tecnologia para melhorar a performance e qualidade dos seus projetos.
+                                </Dt>
+                                <Dt>
+                                    <strong>–</strong> Conseguimos unir diversas fontes de dados em uma única ferramenta para gerar o seu Dashboard de maneira eficiente.
+                                    Suporte e Treinamento
+                                </Dt>
+                                <Dt>
+                                    <strong>–</strong>  Garantimos todo suporte e treinamento necessário após a finalização do seu projeto.
+                                </Dt>
+                            </Dl>
+
+                        </ListaEsquerda>
+                        <ListaDireita>
                         <Dl>
-                            <Dt>
-                                <strong>–</strong> Proficionais Qualificados
-                            </Dt>
-                            <Dt>
-                                <strong>–</strong> Para todo projeto utilizamos metodologia ágil.
-                            </Dt>
-                            <Dt>
-                                <strong>–</strong> Plataforma é simples de usar
-                            </Dt>
-                            <Dt>
-                                <strong>–</strong> Utilizamos o que há de mais atual em tecnologia para melhorar a performance e qualidade dos seus projetos.
-                            </Dt>
-                            <Dt>
-                                <strong>–</strong> Conseguimos unir diversas fontes de dados em uma única ferramenta para gerar o seu Dashboard de maneira eficiente.
-                                Suporte e Treinamento
-                            </Dt>
-                            <Dt>
-                                <strong>–</strong>  Garantimos todo suporte e treinamento necessário após a finalização do seu projeto.
-                            </Dt>
-                        </Dl>
-
-                    </ListaEsquerda>
-                    <ListaDireita>
-                        {/* <Dl> */}
-                        <img src="./Design team(1).gif" height="300" />
-                        {/* </Dl> */}
+                                <Dt>
+                                    <strong>–</strong> Proficionais Qualificados
+                                </Dt>
+                                <Dt>
+                                    <strong>–</strong> Para todo projeto utilizamos metodologia ágil.
+                                </Dt>
+                                <Dt>
+                                    <strong>–</strong> Plataforma é simples de usar
+                                </Dt>
+                                <Dt>
+                                    <strong>–</strong> Utilizamos o que há de mais atual em tecnologia para melhorar a performance e qualidade dos seus projetos.
+                                </Dt>
+                                <Dt>
+                                    <strong>–</strong> Conseguimos unir diversas fontes de dados em uma única ferramenta para gerar o seu Dashboard de maneira eficiente.
+                                    Suporte e Treinamento
+                                </Dt>
+                                <Dt>
+                                    <strong>–</strong>  Garantimos todo suporte e treinamento necessário após a finalização do seu projeto.
+                                </Dt>
+                            </Dl>
+                            {/* <img src="./Design team(1).gif" height="300" /> */}
 
 
-                    </ListaDireita>
+                        </ListaDireita>
+                    </di>
                 </ModalContainerButton>
 
             </DivButton>
-        <div style={{width:"100%",display:"flex",justifyContent:"center"}}>
+        <div style={{width:"100%",display:"flex",justifyContent:"center",height:"100vh"}}>
             <ModalContainerFuturo opacity={opacity.modalFuturo} >
            
                 <ModalFuturo  opacity={opacity.modalFuturo} >

@@ -9,8 +9,8 @@ export function DefinindoSaas({ opacity }) {
                     <h1>Oferecemos a nossa plataforma como serviço SaaS</h1>
                 </Text>
             </DivText>
-            <div style={{display:"flex",justifyContent:"center"}}>
-                <div style={{ display: "flex", flexWrap: "wrap", width: "80%" }}>
+            <div style={{display:"flex",justifyContent:"center",height:"71%"}}>
+                <div style={{ display: "flex", flexWrap: "wrap", width: "80%"}}>
                     <div style={{ width: "37%" }}>
 
                         <DivText  >
@@ -41,7 +41,7 @@ export function DefinindoSaas({ opacity }) {
 
                     </div>
 
-                    <div style={{ width: "63%",display:"flex",flexWrap:"wrap" }}>
+                    <div style={{overflow:"auto",height:"100%",transform:opacity.mc2 == 1? "scaleX(1)" : "scaleX(0)",transition:"1s", width: "63%",display:"flex",flexWrap:"wrap" }}>
 
                         <ModalContainer>
                             <DivText>

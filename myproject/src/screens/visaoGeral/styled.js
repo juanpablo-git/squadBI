@@ -36,7 +36,7 @@ animation:2s ${fadeIn} ease-out ;
 transition: 2s;
 height: 500px;
 width: 80%;
-background-color: #2e3295   ;
+background: linear-gradient(47deg, rgba(61,85,255,.9) 0%,  rgba(61,52,145,1)  81%) , url("./scifi.jpg");
 border-radius: 25px;
 
 
@@ -44,16 +44,16 @@ border-radius: 25px;
 
 export const ListaEsquerda = styled.div`
 height: auto;
-width: 430px;
+width: 40%;
 @media (max-width: 768px){
         width:90%;
     }
 
 `
 export const ListaDireita = styled.div`
-margin-left: 50px;
+margin-left: 4rem;
 height: auto;
-width: auto;
+width: 40%;
 `
 
 export const ModalContainer = styled.div`
@@ -92,10 +92,9 @@ height: 25rem;
 export const Containeer = styled.div`
 
 width: 100%;
-height: auto;
+
 padding-top: 100px;
 padding-bottom: 50px;
-
 
 
 `
