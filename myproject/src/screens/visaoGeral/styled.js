@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import {fadeIn} from "../home/animations"
+import {displayNone, fadeIn} from "../home/animations"
 
 export const Dl = styled.ul`
 list-style: none;
@@ -82,6 +82,12 @@ export const Paragrafo = styled.p`
 
 
 `
+export const Modal = styled.div`
+border-radius: 20px;
+background-image: url("./cubos.jpg");
+width: 151%;
+height: 25rem;
+`
 
 export const Containeer = styled.div`
 
@@ -149,4 +155,17 @@ export const ButtonAngulo = styled.button`
 
 
 
+`
+
+export const ModalContainerFuturo = styled.div`
+width:80%;
+display:flex;
+justify-content:center;
+align-items:center;
+margin-top:100px;
+margin-bottom:100px;
+/* opacity: ${props => props.opacity == 1 ? 1 : 0}; */
+animation: ${props => props.opacity == 1 ? "" : displayNone };
+transform:  ${props => props.opacity == 1 ? "scale(1)" : "scale(0)" }; ;
+transition: 1s;
 `

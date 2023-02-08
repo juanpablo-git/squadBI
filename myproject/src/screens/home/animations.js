@@ -19,6 +19,14 @@ export const moveLeft = keyframes`
   margin-left: 0%;
 }
 `
+export const displayNone = keyframes`
+0%{
+  display: none;
+}
+100%{
+  display: flex;
+}
+`
 
 export const Teste = styled.button`
   animation: 1s ${fadeIn} ease-out;

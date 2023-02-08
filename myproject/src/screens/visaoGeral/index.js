@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react"
 import { ModalFuturo } from "../PorqueSquadBI/styled"
-import { Button, ButtonAngulo, Containeer, DivButton, DivTop, Dl, Dt, ListaDireita, ListaEsquerda, ModalContainer, ModalContainerButton, Paragrafo, T2, TituloContainer } from "./styled"
+import { Button, ButtonAngulo, Containeer, DivButton, DivTop, Dl, Dt, ListaDireita, ListaEsquerda, Modal, ModalContainer, ModalContainerButton, ModalContainerFuturo, Paragrafo, T2, TituloContainer } from "./styled"
 export default function VisaoGeral({ opacity }) {
     const containerLogos = useRef()
     return (
@@ -111,7 +111,7 @@ export default function VisaoGeral({ opacity }) {
 
             </DivButton>
         <div style={{width:"100%",display:"flex",justifyContent:"center"}}>
-            <div style={{width:"80%" ,display:"flex",justifyContent:"center",alignItems:"center",marginTop:100,marginBottom:100}}>
+            <ModalContainerFuturo opacity={opacity.modalFuturo} >
            
                 <ModalFuturo >
 
@@ -122,13 +122,11 @@ export default function VisaoGeral({ opacity }) {
                     </p> 
                     <Button style={{marginTop:25}}>Fale com um especialista</Button>
                 </ModalFuturo>
-                <div style={{marginLeft:"-20%"}} >
-            <img src="./cubos.jpg" width={800} />
-            </div>
+                <Modal style={{marginLeft:"-20%",borderRadius:20}} ></Modal>
 
                
-            </div> 
-            </div>
+            </ModalContainerFuturo> 
+        </div>
         
 
         </Containeer>
