@@ -9,6 +9,17 @@ export const fadeIn = keyframes`
   }
 `
 
+export const moveLeft = keyframes`
+0%{
+  transform: scale(0);
+  margin-left: -50%;
+}
+100%{
+  transform: scale(1);
+  margin-left: 0%;
+}
+`
+
 export const Teste = styled.button`
   animation: 1s ${fadeIn} ease-out;
 `

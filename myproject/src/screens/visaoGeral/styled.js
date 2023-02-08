@@ -138,3 +138,15 @@ background:linear-gradient(180deg, rgba(0, 205, 194, 0.20131) 0%, rgba(50, 129, 
     transition: 0.5s;
 }
 `
+export const ButtonAngulo = styled.button`
+    height: 50px;
+    width: 55px;
+    border-radius:100%;
+    border: transparent;
+    padding: 10px;
+    border: .1rem solid #e4e7ec;
+    opacity: ${props => props.opacity == 1 ? 1 : 0 };
+
+
+
+`

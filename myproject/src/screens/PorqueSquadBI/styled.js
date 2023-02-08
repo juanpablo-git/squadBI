@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import {fadeIn} from "../home/animations"
+import {fadeIn,moveLeft} from "../home/animations"
 
 export const Dl = styled.ul`
 list-style: none;
@@ -85,11 +85,16 @@ padding: 10px;
 `
 
 export const ModalFuturo = styled.div`
-width: 30rem;
 background-color: #fff;
-height: 15rem;
 border-radius: 20px;
 box-shadow: 0 14px 30px rgba(78,64,64,.17);
 padding: 10px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+z-index:1;
+animation: ${moveLeft} 1s;
+
 
 `

@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react"
 import { ModalFuturo } from "../PorqueSquadBI/styled"
-import { Button, Containeer, DivButton, DivTop, Dl, Dt, ListaDireita, ListaEsquerda, ModalContainer, ModalContainerButton, Paragrafo, T2, TituloContainer } from "./styled"
+import { Button, ButtonAngulo, Containeer, DivButton, DivTop, Dl, Dt, ListaDireita, ListaEsquerda, ModalContainer, ModalContainerButton, Paragrafo, T2, TituloContainer } from "./styled"
 export default function VisaoGeral({ opacity }) {
     const containerLogos = useRef()
     return (
@@ -9,22 +9,15 @@ export default function VisaoGeral({ opacity }) {
                 <TituloContainer style={{ marginBottom: 50 }} opacity={opacity.mc0} id="mc">
                     <T2>Empresas que utilizam  a SQUAD BI</T2>
                 </TituloContainer>
-                <div style={{ display: "flex", width: "80%"}}>
-                    <button style={{
-                        height: 50,
-                        width: 55,
-                        borderRadius: "100%",
-                        border: "none",
-                        padding: 10,
-                        border: ".1rem solid #e4e7ec"
-
-                    }} onClick={(e) => {
+                <div style={{ display: "flex",alignItems:"center", width: "80%"}}>
+                    <ButtonAngulo opacity={opacity.mc0}
+                     onClick={(e) => {
                         console.log(containerLogos.current)
                         containerLogos.current.scrollLeft -= containerLogos.current.offsetLeft
-                        
-                        
 
-                    }}><img src="./angulo-esquerdo.svg" style={{ width: "100%", height: "100%" }} /></button>
+                    }}>
+                        <img src="./angulo-esquerdo.svg" style={{ width: "100%", height: "100%" }} />
+                    </ButtonAngulo>
                     <div ref={containerLogos} style={{ display: "flex",padding:10,  overflowX: "hidden", overflowY: "hidden",scrollBehavior:"smooth" }}>
                         {
                             ["./Logo-Secundária-Degrade-Escuro.png", "./Logo-Secundária-Degrade-Escuro.png", "./Logo-Secundária-Degrade-Escuro.png", "./Logo-Secundária-Degrade-Escuro.png", "./Logo-Secundária-Degrade-Escuro.png", "./Logo-Secundária-Degrade-Escuro.png", "./Logo-Secundária-Degrade-Escuro.png", "./Logo-Secundária-Degrade-Escuro.png", "./Logo-Secundária-Degrade-Escuro.png", "./Logo-Secundária-Degrade-Escuro.png"]
@@ -44,15 +37,7 @@ export default function VisaoGeral({ opacity }) {
                                 })
                         }
                     </div>
-                    <button style={{
-                        height: 50,
-                        width: 55,
-                        borderRadius: "100%",
-                        border: "none",
-                        padding: 10,
-                        border: ".1rem solid #e4e7ec"
-
-                    }}
+                    <ButtonAngulo opacity={opacity.mc0}
                     onClick={(e) => {
                         console.log(containerLogos.current)
                         containerLogos.current.scrollLeft += 150
@@ -60,7 +45,8 @@ export default function VisaoGeral({ opacity }) {
                         
                         
 
-                    }}><img src="./angulo-direito.svg" style={{ width: "100%", height: "100%" }} /></button>
+                    }}><img src="./angulo-direito.svg" style={{ width: "100%", height: "100%" }} />
+                    </ButtonAngulo>
 
 
                 </div>
@@ -127,7 +113,7 @@ export default function VisaoGeral({ opacity }) {
         <div style={{width:"100%",display:"flex",justifyContent:"center"}}>
             <div style={{width:"80%" ,display:"flex",justifyContent:"center",alignItems:"center",marginTop:100,marginBottom:100}}>
            
-                <ModalFuturo style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center",zIndex:1}}>
+                <ModalFuturo >
 
                     <p  style={{fontSize:"2rem",padding:20}}>Te desafiamos para o futuro</p>
 
