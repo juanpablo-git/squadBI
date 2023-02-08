@@ -12,11 +12,17 @@ justify-content: center;
 align-items: center;
 `
 export const ModalContainer = styled.div`
-width:77vw;
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
-align-items: center;
+border-radius:25px;
+width:80%;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+background:rgb(68,56,255);
+background:linear-gradient(47deg, rgba(68,56,255,1) 0%, rgba(36,30,120,1) 81%);
+justify-content:center;
+margin-top:"60px";
+padding:20px;
 `
 export const ContainerText = styled.div`
 

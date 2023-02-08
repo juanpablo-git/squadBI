@@ -1,5 +1,6 @@
 import { useEffect, useState, useRef } from "react"
-import { Containeer, DivButton, DivTop, Dl, Dt, ListaDireita, ListaEsquerda, ModalContainer, ModalContainerButton, Paragrafo, T2, TituloContainer } from "./styled"
+import { ModalFuturo } from "../PorqueSquadBI/styled"
+import { Button, Containeer, DivButton, DivTop, Dl, Dt, ListaDireita, ListaEsquerda, ModalContainer, ModalContainerButton, Paragrafo, T2, TituloContainer } from "./styled"
 export default function VisaoGeral({ opacity }) {
     const containerLogos = useRef()
     return (
@@ -82,13 +83,7 @@ export default function VisaoGeral({ opacity }) {
                         </Paragrafo> */}
             </DivTop>
 
-
-
-
             <DivButton>
-
-
-
 
                 <ModalContainerButton opacity={opacity.mc1}>
                     <TituloContainer opacity={opacity.mc1}>
@@ -129,6 +124,26 @@ export default function VisaoGeral({ opacity }) {
                 </ModalContainerButton>
 
             </DivButton>
+        <div style={{width:"100%",display:"flex",justifyContent:"center"}}>
+            <div style={{width:"80%" ,display:"flex",justifyContent:"center",alignItems:"center",marginTop:100,marginBottom:100}}>
+           
+                <ModalFuturo style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center",zIndex:1}}>
+
+                    <p  style={{fontSize:"2rem",padding:20}}>Te desafiamos para o futuro</p>
+
+                    <p style={{fontWeight: 400,color:" #667085"}}>
+                        A Squad BI tem o propósito de trilhar com a sua empresa o caminho até às nuvens. E além delas, por meio da tecnologia te ajudar a chegar ao topo.
+                    </p> 
+                    <Button style={{marginTop:25}}>Fale com um especialista</Button>
+                </ModalFuturo>
+                <div style={{marginLeft:"-20%"}} >
+            <img src="./cubos.jpg" width={800} />
+            </div>
+
+               
+            </div> 
+            </div>
+        
 
         </Containeer>
     )

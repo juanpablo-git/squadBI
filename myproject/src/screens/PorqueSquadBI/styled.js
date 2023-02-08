@@ -83,3 +83,13 @@ padding: 10px;
     height: 50%;
 
 `
+
+export const ModalFuturo = styled.div`
+width: 30rem;
+background-color: #fff;
+height: 15rem;
+border-radius: 20px;
+box-shadow: 0 14px 30px rgba(78,64,64,.17);
+padding: 10px;
+
+`

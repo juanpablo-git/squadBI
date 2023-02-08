@@ -124,3 +124,17 @@ flex-direction: column;
 
 
 `
+
+export const Button  = styled.button`
+border: none;
+font-size: 15px;
+width: 200px;
+height: 50px;
+border-radius: 32px;
+color: #fff;
+background:linear-gradient(180deg, rgba(0, 205, 194, 0.20131) 0%, rgba(50, 129, 250, 0.932385) 0.01%, #02CFC6 100%);
+&:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+}
+`
