@@ -2,6 +2,7 @@ import React from "react"
 import { Container, ContainerTitle, DivText, Text, ModalContainer, P1, P2 } from "./styled"
 
 export function DefinindoSaas({ opacity }) {
+    console.log(opacity)
     return (
         <Container opacity={opacity.mc2}>
             <DivText style={{ marginLeft: "10%" }}>

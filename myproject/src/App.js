@@ -59,27 +59,26 @@ function App() {
         mc3: 0
       })
 
-
     }
-    if (window.scrollY > 1368) {
+    if (window.scrollY > 1600) {
       setOpacity({
         mc0: 1,
         mc1: 1,
-        mc2: 1,
         modalFuturo: 1,
+        mc2: 1,
         mc3: 0,
       })
 
     }
-    if (window.scrollY > 1774) {
-      setOpacity({
-        mc0: 1,
-        mc1: 1,
-        mc2: 1,
-        modalFuturo: 1,
-        mc3: 1,
-      })
-    }
+    // if (window.scrollY > 1774) {
+    //   setOpacity({
+    //     mc0: 1,
+    //     mc1: 1,
+    //     mc2: 1,
+    //     modalFuturo: 1,
+    //     mc3: 1,
+    //   })
+    // }
 
 
 

@@ -1,11 +1,11 @@
 import styled from "styled-components";
-import {fadeIn} from "../home/animations"
+import { fadeIn } from "../home/animations"
 
 
 export const Container = styled.div`
 
 width: 100%;
-opacity: ${props => props.opacity || 0};
+opacity: ${props => props.opacity == 1 ? 1 : 0};
 animation: 3s ${fadeIn} ;
 transition: 3s;
 
@@ -39,10 +39,10 @@ export const ModalContainer = styled.div`
     max-width: 284px;
 `
 
-export const P1 = styled.p `
+export const P1 = styled.p`
 font-size:1.5rem;
 `
-export const P2 = styled.p `
+export const P2 = styled.p`
 color:#677186;
 font-size:0.9rem;
 max-width: 284px;
