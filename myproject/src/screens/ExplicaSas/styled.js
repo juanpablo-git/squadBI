@@ -12,6 +12,15 @@ transition: 3s;
 
 
 `
+export const ContainerCard = styled.div`
+scroll-behavior:smooth;
+overflow:auto;
+height:100%;
+transform:${({opacity})=>opacity == 1? "scaleX(1)" : "scaleX(0)"};
+transition:1s;
+width: 63%;
+display:flex;
+`
 
 export const DivText = styled.div`
 
