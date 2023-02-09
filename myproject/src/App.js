@@ -60,7 +60,8 @@ function App() {
       })
 
     }
-    if (window.scrollY > 1600) {
+   
+    if (window.scrollY > 1900) {
       setOpacity({
         mc0: 1,
         mc1: 1,

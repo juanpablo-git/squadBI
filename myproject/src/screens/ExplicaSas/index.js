@@ -1,8 +1,8 @@
-import React from "react"
-import { Container, ContainerTitle, DivText, Text, ModalContainer, P1, P2 } from "./styled"
+import React,{useRef} from "react"
+import { Container, ContainerTitle, DivText, Text, ModalContainer, P1, P2, ContainerCard } from "./styled"
 
 export function DefinindoSaas({ opacity }) {
-    console.log(opacity)
+    const cardContainer = useRef()
     return (
         <Container opacity={opacity.mc2}>
             <DivText style={{ marginLeft: "10%" }}>
@@ -37,7 +37,7 @@ export function DefinindoSaas({ opacity }) {
 
                     </div>
 
-                    <div style={{overflow:"auto",overflowX:"hidden",height:"100%",transform:opacity.mc2 == 1? "scaleX(1)" : "scaleX(0)",transition:"1s", width: "63%",display:"flex" }}>
+                    <ContainerCard ref={cardContainer} opacity={opacity.mc2} >
 
                         <ModalContainer>
                             <DivText>
@@ -83,9 +83,21 @@ export function DefinindoSaas({ opacity }) {
                             </DivText>
                         </ModalContainer>
 
+                    </ContainerCard>
+                    <div style={{width:"100%",display:"flex",justifyContent:"end"}}>
+                        <div style={{width:"63%",display:"flex",justifyContent:"center"}}>
+                            <button 
+                                onClick={(e)=> cardContainer.current.scrollLeft-= cardContainer.current.offsetLeft}
+                                style={{margin:10,padding:10,border:"transparent",borderRadius:"100%"}}>  <img src="./angulo-esquerdo.svg" style={{ height: "2rem" }} /></button>
+                            <button
+                                onClick={(e)=>{cardContainer.current.scrollLeft+= cardContainer.current.offsetLeft}}
+                                style={{margin:10,padding:10,border:"transparent",borderRadius:"100%"}}><img src="./angulo-direito.svg" style={{ height: "2rem" }} /></button>
+                        </div>
+                        
                     </div>
                     
                   <button>></button>
+
 
                 </div>
 
