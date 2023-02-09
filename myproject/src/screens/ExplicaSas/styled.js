@@ -9,11 +9,12 @@ opacity: ${props => props.opacity == 1 ? 1 : 0};
 animation: 3s ${fadeIn} ;
 transition: 3s;
 
+
 `
 
 export const DivText = styled.div`
 
-width: 400px;
+width: auto;
 transition: 3s;
 @media (max-width: 768px){
     width: 90%;
@@ -36,7 +37,8 @@ export const ModalContainer = styled.div`
     padding:15px;
     margin:15px;
     border-radius:10px;
-    max-width: 284px;
+    max-width: 280px;
+    height: 23rem;
 `
 
 export const P1 = styled.p`

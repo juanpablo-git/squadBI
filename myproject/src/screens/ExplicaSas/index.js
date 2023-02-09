@@ -10,8 +10,8 @@ export function DefinindoSaas({ opacity }) {
                     <h1>Oferecemos a nossa plataforma como serviço SaaS</h1>
                 </Text>
             </DivText>
-            <div style={{display:"flex",justifyContent:"center"}}>
-                <div style={{ display: "flex", flexWrap: "wrap", width: "80%" }}>
+            <div style={{display:"flex",justifyContent:"center",height:"71%"}}>
+                <div style={{ display: "flex", flexWrap: "wrap", width: "80%"}}>
                     <div style={{ width: "37%" }}>
 
                         <DivText  >
@@ -23,11 +23,6 @@ export function DefinindoSaas({ opacity }) {
                                 APIs do fabricante.
                             </Text>
                         </DivText>
-                        {/* imagem */}
-
-
-
-                        {/* texto */}
                         <DivText>
                             <Text>
                                 <ContainerTitle><h2>Vantagens do SaaS</h2></ContainerTitle>
@@ -42,7 +37,7 @@ export function DefinindoSaas({ opacity }) {
 
                     </div>
 
-                    <div style={{ width: "63%",display:"flex",flexWrap:"wrap" }}>
+                    <div style={{overflow:"auto",overflowX:"hidden",height:"100%",transform:opacity.mc2 == 1? "scaleX(1)" : "scaleX(0)",transition:"1s", width: "63%",display:"flex" }}>
 
                         <ModalContainer>
                             <DivText>
@@ -58,7 +53,7 @@ export function DefinindoSaas({ opacity }) {
                         <ModalContainer>
 
                             <DivText>
-                                <img src="./agilite.png" style={{ width: "15rem" }} />
+                                <img src="./agilite.png" style={{ width: "15rem",marginBottom: "-4rem" }} />
                                 <Text>
                                     <ContainerTitle><P1>Agilidade</P1></ContainerTitle>
                                     <P2>Crie fluxos de dados sem a necessidade de qualquer código, reduzindo muito o tempo operacional.</P2>
@@ -85,13 +80,12 @@ export function DefinindoSaas({ opacity }) {
                                     </P2>
                                 </Text>
 
-
-
-                                {/* <img src="./Server.gif" height="310" /> */}
                             </DivText>
                         </ModalContainer>
 
                     </div>
+                    
+                  <button>></button>
 
                 </div>
 
