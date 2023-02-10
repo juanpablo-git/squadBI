@@ -40,7 +40,7 @@ export function DefinindoSaas({ opacity }) {
                     <ContainerCard ref={cardContainer} opacity={opacity.mc2} >
 
                         <ModalContainer>
-                            <DivText>
+                            <DivText style={{width:"100%"}}>
 
                                 <img src="./segurança.png" style={{ width: "15rem" }} />
                                 <Text>
@@ -52,7 +52,7 @@ export function DefinindoSaas({ opacity }) {
 
                         <ModalContainer>
 
-                            <DivText>
+                            <DivText style={{width:"100%"}}>
                                 <img src="./agilite.png" style={{ width: "15rem",marginBottom: "-4rem" }} />
                                 <Text>
                                     <ContainerTitle><P1>Agilidade</P1></ContainerTitle>
@@ -62,7 +62,7 @@ export function DefinindoSaas({ opacity }) {
                         </ModalContainer>
 
                         <ModalContainer>
-                            <DivText>
+                            <DivText style={{width:"100%"}}>
                                 <img src="./pig.svg" style={{ width: "15rem" }} />
                                 <Text>
                                     <ContainerTitle><P1>Economia</P1></ContainerTitle>
@@ -72,7 +72,7 @@ export function DefinindoSaas({ opacity }) {
                             </DivText>
                         </ModalContainer>
                         <ModalContainer>
-                            <DivText>
+                            <DivText style={{width:"100%"}}>
                                 <img src="./notBook.svg" style={{ width: "15rem" }} />
                                 <Text>
                                     <ContainerTitle><P1>Liberdade</P1></ContainerTitle>
