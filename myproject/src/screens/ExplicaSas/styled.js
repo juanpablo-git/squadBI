@@ -13,17 +13,19 @@ transition: 3s;
 `
 export const ContainerCard = styled.div`
 scroll-behavior:smooth;
-overflow:auto;
-height:100%;
+overflow-x:hidden;
+overflow-y: hidden;
+height:auto;
 transform:${({opacity})=>opacity == 1? "scaleX(1)" : "scaleX(0)"};
 transition:1s;
-width: 63%;
+width: 100%;
 display:flex;
+margin-top: 2rem;
 `
 
 export const DivText = styled.div`
 
-width: auto;
+width: 50%;
 transition: 3s;
 @media (max-width: 768px){
     width: 90%;

@@ -16,7 +16,7 @@ export default function VisaoGeral({ opacity }) {
                         containerLogos.current.scrollLeft -= containerLogos.current.offsetLeft
 
                     }}>
-                        <img src="./angulo-esquerdo.svg" style={{ width: "100%", height: "100%" }} />
+                        <img src="./angulo-esquerdo.svg" style={{ width: "2rem", height: "2rem" }} />
                     </ButtonAngulo>
                     <div ref={containerLogos} style={{ display: "flex",padding:10,  overflowX: "hidden", overflowY: "hidden",scrollBehavior:"smooth" }}>
                         {
@@ -45,7 +45,7 @@ export default function VisaoGeral({ opacity }) {
                         
                         
 
-                    }}><img src="./angulo-direito.svg" style={{ width: "100%", height: "100%" }} />
+                    }}><img src="./angulo-direito.svg" style={{ width: "2rem", height: "2rem" }} />
                     </ButtonAngulo>
 
 

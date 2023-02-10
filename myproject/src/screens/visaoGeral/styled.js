@@ -13,6 +13,7 @@ padding-bottom: 10px;
 `
 
 export const T2 = styled.h2`
+margin-top: 3%;
 font-weight: 400;
 
 `
@@ -34,7 +35,7 @@ align-items: center;
 opacity: ${props => props.opacity == 1 ? 1 : 0 };
 animation:2s ${fadeIn} ease-out ;
 transition: 2s;
-height: 500px;
+height:100%;
 width: 80%;
 background: linear-gradient(47deg, rgba(61,85,255,.9) 0%,  rgba(61,52,145,1)  81%) , url("./scifi.jpg");
 border-radius: 25px;
@@ -144,8 +145,8 @@ background:linear-gradient(180deg, rgba(0, 205, 194, 0.20131) 0%, rgba(50, 129, 
 }
 `
 export const ButtonAngulo = styled.button`
-    height: 50px;
-    width: 55px;
+    height:auto;
+    width: auto;
     border-radius:100%;
     border: transparent;
     padding: 10px;

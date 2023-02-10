@@ -12,7 +12,7 @@ export function DefinindoSaas({ opacity }) {
             </DivText>
             <div style={{display:"flex",justifyContent:"center",height:"71%"}}>
                 <div style={{ display: "flex", flexWrap: "wrap", width: "80%"}}>
-                    <div style={{ width: "37%" }}>
+                    <div style={{ width: "100%" , display:"flex",flexWrap:"wrap"}}>
 
                         <DivText  >
                             <Text>
@@ -23,7 +23,7 @@ export function DefinindoSaas({ opacity }) {
                                 APIs do fabricante.
                             </Text>
                         </DivText>
-                        <DivText>
+                        <DivText >
                             <Text>
                                 <ContainerTitle><h2>Vantagens do SaaS</h2></ContainerTitle>
                                 Os principais diferenciais desse modelo de nuvem são
@@ -84,19 +84,16 @@ export function DefinindoSaas({ opacity }) {
                         </ModalContainer>
 
                     </ContainerCard>
-                    <div style={{width:"100%",display:"flex",justifyContent:"end"}}>
-                        <div style={{width:"63%",display:"flex",justifyContent:"center"}}>
+                    <div style={{width:"100%",display:"flex",justifyContent:"center"}}>
                             <button 
                                 onClick={(e)=> cardContainer.current.scrollLeft-= cardContainer.current.offsetLeft}
                                 style={{margin:10,padding:10,border:"transparent",borderRadius:"100%"}}>  <img src="./angulo-esquerdo.svg" style={{ height: "2rem" }} /></button>
                             <button
                                 onClick={(e)=>{cardContainer.current.scrollLeft+= cardContainer.current.offsetLeft}}
                                 style={{margin:10,padding:10,border:"transparent",borderRadius:"100%"}}><img src="./angulo-direito.svg" style={{ height: "2rem" }} /></button>
-                        </div>
                         
                     </div>
                     
-                  <button>></button>
 
 
                 </div>
