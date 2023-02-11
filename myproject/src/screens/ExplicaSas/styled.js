@@ -21,6 +21,10 @@ transition:1s;
 width: 100%;
 display:flex;
 margin-top: 2rem;
+@media (max-width: 768px){
+overflow-x:auto;
+overflow-y: hidden;
+}
 `
 
 export const DivText = styled.div`

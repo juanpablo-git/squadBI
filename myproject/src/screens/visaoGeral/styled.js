@@ -15,15 +15,15 @@ padding-bottom: 10px;
 export const T2 = styled.h2`
 margin-top: 3%;
 font-weight: 400;
-
 `
 export const TituloContainer = styled.div`
-width:100%;
+width:90%;
 display:flex;
 justify-content: center;
 opacity: ${props => props.opacity == 1 ? 1 : 0 };
 animation:2s ${fadeIn} ease-out;
 transition: 2s;
+
 `
 
 export const ModalContainerButton = styled.div`
@@ -102,6 +102,17 @@ padding-top: 100px;
 padding-bottom: 50px;
 
 
+`
+export const ContainersLogos = styled.div`
+display: flex;
+padding:10px;  
+overflow-x:hidden;
+ overflow-y: hidden;
+ scroll-behavior:smooth;
+ @media (max-width: 768px){
+overflow-x:auto;
+overflow-y: hidden;
+}
 `
 export const DivTop = styled.div`
     width: 100%;

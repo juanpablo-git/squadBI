@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react"
 import { ModalFuturo } from "../PorqueSquadBI/styled"
-import { Button, ButtonAngulo, Containeer, DivButton, DivTop, Dl, Dt, ListaDireita, ListaEsquerda, Modal, ModalContainer, ModalContainerButton, ModalContainerFuturo, Paragrafo, T2, TituloContainer } from "./styled"
+import { Button, ButtonAngulo, Containeer, ContainersLogos, DivButton, DivTop, Dl, Dt, ListaDireita, ListaEsquerda, Modal, ModalContainer, ModalContainerButton, ModalContainerFuturo, Paragrafo, T2, TituloContainer } from "./styled"
 export default function VisaoGeral({ opacity }) {
     const containerLogos = useRef()
     return (
@@ -18,7 +18,7 @@ export default function VisaoGeral({ opacity }) {
                     }}>
                         <img src="./angulo-esquerdo.svg" style={{ width: "2rem", height: "2rem" }} />
                     </ButtonAngulo>
-                    <div ref={containerLogos} style={{ display: "flex",padding:10,  overflowX: "hidden", overflowY: "hidden",scrollBehavior:"smooth" }}>
+                    <ContainersLogos ref={containerLogos} >
                         {
                             ["./Logo-Secundária-Degrade-Escuro.png", "./Logo-Secundária-Degrade-Escuro.png", "./Logo-Secundária-Degrade-Escuro.png", "./Logo-Secundária-Degrade-Escuro.png", "./Logo-Secundária-Degrade-Escuro.png", "./Logo-Secundária-Degrade-Escuro.png", "./Logo-Secundária-Degrade-Escuro.png", "./Logo-Secundária-Degrade-Escuro.png", "./Logo-Secundária-Degrade-Escuro.png", "./Logo-Secundária-Degrade-Escuro.png"]
                                 .map((iten,k) => {
@@ -36,7 +36,7 @@ export default function VisaoGeral({ opacity }) {
 
                                 })
                         }
-                    </div>
+                    </ContainersLogos>
                     <ButtonAngulo opacity={opacity.mc0}
                     onClick={(e) => {
                         console.log(containerLogos.current)
