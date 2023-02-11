@@ -15,6 +15,7 @@ export const ModalContainer = styled.div`
 border-radius:25px;
 width:80%;
 display:flex;
+flex-wrap: wrap;
 justify-content:center;
 align-items:center;
 background:rgb(68,56,255);
@@ -24,6 +25,16 @@ margin-top:"60px";
 padding:20px;
 opacity: ${props => props.opacity};
 transition: 1s;
+@media (min-width: 768px){
+        flex-wrap: nowrap;
+    }
+`
+export const ContainerTitles = styled.div`
+max-width:50%;
+@media (max-width: 768px){
+    min-width: 100%;
+}
+
 `
 export const ContainerText = styled.div`
 
@@ -35,6 +46,9 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 color: white;
+@media (max-width: 768px){
+   max-width: 100%;
+}
 `
 export const ContainerForm = styled.div`
 display: flex;
@@ -44,19 +58,22 @@ animation: 1s ${props => props.opacity ? fadeIn : " "};
 opacity: ${props => props.opacity};
 transition: 1s;
 /* background-color: #ffff; */
-padding: 30px;
 border-radius: 10px;
-width: 50%;
+max-width: 50%;
+padding: 10px;
+@media (max-width: 768px){
+    min-width: 100%;
+    }
+
 `
 
 export const Input = styled.input `
 margin-bottom:10px;
-margin-right:10px;
 border:none;
 border-radius: 5px;
 border-bottom: 2px #61616a solid ;
 outline: none;
-
 padding: 5px 10px;
+width: 43%;
 
 `

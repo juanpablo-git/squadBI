@@ -52,9 +52,13 @@ width: 40%;
 
 `
 export const ListaDireita = styled.div`
-margin-left: 4rem;
+/* margin-left: 4rem; */
 height: auto;
 width: 40%;
+@media (max-width: 768px){
+        width:90%;
+    }
+
 `
 
 export const ModalContainer = styled.div`

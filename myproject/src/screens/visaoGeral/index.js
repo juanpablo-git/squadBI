@@ -75,7 +75,7 @@ export default function VisaoGeral({ opacity }) {
                     <TituloContainer opacity={opacity.mc1}>
                         <T2 >Beneficios da SQUAD BI</T2>
                     </TituloContainer>
-                    <di style={{padding:20,display:"flex",justifyContent:"center"}}>
+                    <di style={{padding:20,display:"flex",flexWrap:"wrap",justifyContent:"space-around"}}>
 
                         <ListaEsquerda>
                             <Dl>
