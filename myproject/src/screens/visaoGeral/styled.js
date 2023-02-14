@@ -109,7 +109,7 @@ padding:10px;
 overflow-x:hidden;
 overflow-y: hidden;
 scroll-behavior:smooth;
-transform:${props=>props.opacity == 1 ? "translateX(0%)" : "translateX(100%)" } ;
+transform:${props=>props.opacity == 1 ? " scale(1) translateX(0px)" : "scale(0) translateX(100%)" } ;
 transition: 1s;
  @media (max-width: 768px){
 overflow-x:auto;
