@@ -18,7 +18,7 @@ export default function VisaoGeral({ opacity }) {
                     }}>
                         <img src="./angulo-esquerdo.svg" style={{ width: "2rem", height: "2rem" }} />
                     </ButtonAngulo>
-                    <ContainersLogos ref={containerLogos} >
+                    <ContainersLogos opacity={opacity.mc0} ref={containerLogos} >
                         {
                             ["./Logo-Secundária-Degrade-Escuro.png", "./Logo-Secundária-Degrade-Escuro.png", "./Logo-Secundária-Degrade-Escuro.png", "./Logo-Secundária-Degrade-Escuro.png", "./Logo-Secundária-Degrade-Escuro.png", "./Logo-Secundária-Degrade-Escuro.png", "./Logo-Secundária-Degrade-Escuro.png", "./Logo-Secundária-Degrade-Escuro.png", "./Logo-Secundária-Degrade-Escuro.png", "./Logo-Secundária-Degrade-Escuro.png"]
                                 .map((iten,k) => {
@@ -71,8 +71,8 @@ export default function VisaoGeral({ opacity }) {
 
             <DivButton>
 
-                <ModalContainerButton opacity={opacity.mc1}>
-                    <TituloContainer opacity={opacity.mc1}>
+                <ModalContainerButton opacity={opacity.home}>
+                    <TituloContainer opacity={opacity.home}>
                         <T2 >Beneficios da SQUAD BI</T2>
                     </TituloContainer>
                     <di style={{padding:20,display:"flex",flexWrap:"wrap",justifyContent:"space-around"}}>

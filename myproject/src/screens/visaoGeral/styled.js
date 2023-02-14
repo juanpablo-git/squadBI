@@ -107,8 +107,10 @@ export const ContainersLogos = styled.div`
 display: flex;
 padding:10px;  
 overflow-x:hidden;
- overflow-y: hidden;
- scroll-behavior:smooth;
+overflow-y: hidden;
+scroll-behavior:smooth;
+transform:${props=>props.opacity == 1 ? "translateX(0%)" : "translateX(100%)" } ;
+transition: 1s;
  @media (max-width: 768px){
 overflow-x:auto;
 overflow-y: hidden;

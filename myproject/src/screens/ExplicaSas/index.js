@@ -4,10 +4,10 @@ import { Container, ContainerTitle, DivText, Text, ModalContainer, P1, P2, Conta
 export function DefinindoSaas({ opacity }) {
     const cardContainer = useRef()
     return (
-        <Container opacity={opacity.mc2}>
+        <Container opacity={opacity.defineSAAS}>
             <DivText style={{ marginLeft: "10%" }}>
                 <Text>
-                    <h1>Oferecemos a nossa plataforma como serviço SaaS</h1>
+                    <h1 style={{fontWeight: 300,fontSize: "xx-large"}}>Oferecemos a nossa plataforma como serviço SaaS</h1>
                 </Text>
             </DivText>
             <div style={{display:"flex",justifyContent:"center",height:"71%"}}>
@@ -37,7 +37,7 @@ export function DefinindoSaas({ opacity }) {
 
                     </div>
 
-                    <ContainerCard ref={cardContainer} opacity={opacity.mc2} >
+                    <ContainerCard ref={cardContainer} opacity={opacity.defineSAAS} >
 
                         <ModalContainer>
                             <DivText style={{width:"100%"}}>

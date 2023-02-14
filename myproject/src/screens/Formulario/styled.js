@@ -2,9 +2,9 @@ import styled from "styled-components";
 import { fadeIn } from "./animation"
 
 export const Container = styled.div`
-
+min-height: 100vh;
 width: 100%;
-padding-top:  120px;
+padding-top:  100px;
 padding-bottom: 120px;
 display: flex;
 flex-direction: column;
@@ -24,7 +24,7 @@ justify-content:center;
 margin-top:"60px";
 padding:20px;
 opacity: ${props => props.opacity};
-transition: 1s;
+transition: 0.5s;
 @media (min-width: 768px){
         flex-wrap: nowrap;
     }

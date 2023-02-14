@@ -14,11 +14,12 @@ import VisaoGeral from "./screens/visaoGeral";
 function App() {
   const [opacity, setOpacity] = useState({
     mc0: 0,
-    mc1: 0,
-    mc2: 0,
-    mc3: 0,
+    home: 0,
+    defineSAAS: 0,
+    formulario: 0,
     cases: 0,
-    modalFuturo: 0
+    modalFuturo: 0,
+    produto:0
   })
 
   window.document.addEventListener('scroll', (e) => {
@@ -26,67 +27,96 @@ function App() {
 
     if (window.scrollY < 400) {
       setOpacity({
-        mc0: 1,
-        mc1: 0,
-        mc2: 0,
+        mc0: 0,
+        home: 0,
+        defineSAAS: 0,
         modalFuturo: 0,
         cases: 0,
-        mc3: 0
+        produto:0,
+        formulario: 0
       })
     }
     if (window.scrollY > 400) {
       setOpacity({
         mc0: 1,
-        mc1: 1,
-        mc2: 0,
+        home: 1,
+        defineSAAS: 0,
         modalFuturo: 0,
         cases: 0,
-        mc3: 0
+        produto:0,
+        formulario: 0
       })
 
     }
 
-    if (window.scrollY > 1400) {
+    if (window.scrollY > 1253) {
 
       setOpacity({
         mc0: 1,
-        mc1: 1,
-        mc2: 1,
+        home: 1,
+        defineSAAS: 1,
+        formulario: 0,
         cases: 0,
+        produto:0,
         modalFuturo: 0,
-        mc3: 1
+
       })
     }
     if (window.scrollY > 1900) {
       setOpacity({
         mc0: 1,
-        mc1: 1,
-        modalFuturo: 1,
+        home: 1,
+        modalFuturo: 0,
         cases: 0,
-        mc2: 1,
-        mc3: 0,
+        produto:0,
+        defineSAAS: 1,
+        formulario: 0,
       })
     }
 
-    if (window.scrollY > 2300) {
+    if (window.scrollY > 2100) {
       setOpacity({
         mc0: 1,
-        mc1: 1,
-        modalFuturo: 1,
+        home: 1,
+        modalFuturo: 0,
         cases: 1,
-        mc2: 1,
-        mc3: 1
+        produto:0,
+        defineSAAS: 1,
+        formulario: 1
       })
 
     }
-    if (window.scrollY > 2700) {
+    if (window.scrollY > 2800) {
       setOpacity({
         mc0: 1,
-        mc1: 1,
-        mc2: 1,
+        home: 1,
+        defineSAAS: 1,
         modalFuturo: 1,
         cases: 1,
-        mc3: 1,
+        produto:0,
+        formulario: 1,
+      })
+    }
+    if (window.scrollY > 3700) {
+      setOpacity({
+        mc0: 1,
+        home: 1,
+        defineSAAS: 1,
+        modalFuturo: 1,
+        cases: 1,
+        produto:1,
+        formulario: 0,
+      })
+    }
+    if (window.scrollY > 4457) {
+      setOpacity({
+        mc0: 1,
+        home: 1,
+        defineSAAS: 1,
+        modalFuturo: 1,
+        cases: 1,
+        produto:1,
+        formulario: 1,
       })
     }
 

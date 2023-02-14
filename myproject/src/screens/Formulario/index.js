@@ -4,9 +4,9 @@ export function     Formulario({opacity}) {
     return (
         <Container>
                
-            <ModalContainer opacity={opacity.mc3}>
+            <ModalContainer opacity={opacity.formulario}>
                 <ContainerTitles>
-                    <ContainerText opacity={opacity.mc3}>
+                    <ContainerText opacity={opacity.formulario}>
                         <h1> Entenda como a squad BI pode ajudar a sua empresa.</h1>
                     </ContainerText>
                     <ContainerText>
@@ -17,7 +17,7 @@ export function     Formulario({opacity}) {
                 {/* <img src="./Email campaign-amico.png" height="200rem" /> */}
                 </ContainerTitles>
 
-                <ContainerForm style={{marginTop:30}} opacity={opacity.mc3}>
+                <ContainerForm style={{marginTop:30}} opacity={opacity.formulario}>
                     <div style={{display:"flex",justifyContent:"space-between",width:"100%",flexWrap:"wrap"}}>
                         <Input placeholder="Nome" />
                         <Input placeholder="E-mail" />

@@ -1,12 +1,13 @@
 import { ContainerCard, ContainerTitle, DivText, ModalContainer, P1, P2, Text } from "./styled"
 
 export default ({opacity})=> 
-<div style={{width:"100%",minHeight:"100vh",display:"flex",flexDirection:"column",alignItems:"center",marginTop:"400px",opacity:opacity.cases == 1 ? 1 : 0,transition:"0.5s"}}>
+<div style={{marginTop:200,width:"100%",minHeight:"100vh",display:"flex",flexDirection:"column",alignItems:"center",opacity:opacity.cases == 1 ? 1 : 0,transition:"0.5s"}}>
 <div style={{width:"80%",}} >
 
 <DivText  >
     <Text>
-        <ContainerTitle><h2>Veja como as empresas estão utilizando a solução SaaS da SQUADBI</h2></ContainerTitle>
+        <ContainerTitle><h2 style={{fontWeight: 300,
+fontSize: "xx-large"}}>Veja como as empresas estão utilizando a solução SaaS da SQUADBI</h2></ContainerTitle>
     </Text>
 </DivText>
 

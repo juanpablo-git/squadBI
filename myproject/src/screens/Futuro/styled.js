@@ -179,7 +179,7 @@ justify-content:center;
 align-items:center;
 margin-top:100px;
 margin-bottom:100px;
-/* opacity: ${props => props.opacity == 1 ? 1 : 0}; */
+opacity: ${props => props.opacity == 1 ? 1 : 0};
 animation: ${props => props.opacity == 1 ? "" : displayNone };
 transform:  ${props => props.opacity == 1 ? "scale(1)" : "scale(0)" }; ;
 transition: 1s;
