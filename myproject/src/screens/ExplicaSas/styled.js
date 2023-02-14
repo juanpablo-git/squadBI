@@ -18,7 +18,7 @@ scroll-behavior:smooth;
 overflow-x:hidden;
 overflow-y: hidden;
 height:auto;
-transform:${({opacity})=>opacity == 1? "scaleX(1)" : "scaleX(0)"};
+transform:${({opacity})=>opacity == 1? "scale(1) translateX(0px)" : "scale(0) translateX(200px)"};
 transition:1s;
 width: 100%;
 display:flex;

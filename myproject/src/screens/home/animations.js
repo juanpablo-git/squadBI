@@ -27,6 +27,14 @@ export const displayNone = keyframes`
   display: flex;
 }
 `
+export const translateY = keyframes`
+0%{
+  transform: translateY(200px);
+}
+100%{
+  transform: translateY(0px);
+}
+`
 
 export const Teste = styled.button`
   animation: 1s ${fadeIn} ease-out;

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { fadeIn } from "../home/animations"
+import { fadeIn,translateY } from "../home/animations"
 
 
 export const Container = styled.div`
@@ -16,11 +16,14 @@ scroll-behavior:smooth;
 overflow-x:hidden;
 overflow-y: hidden;
 height:auto;
-transform:${({opacity})=>opacity == 1? "scaleX(1)" : "scaleX(0)"};
-transition:1s;
+transform:${props=>props.opacity == 1 ? "translateX(0%)" : "translateX(100%)" } ;
+display:${({opacity})=>opacity == 1? "flex"  : "none"};
+/* transform:${({opacity})=>opacity == 1? "scaleX(1)"  : "scaleX(0)"}; */
+animation: 1s ${translateY};
+transition:2s;
 width: 100%;
-display:flex;
 margin-top: 2rem;
+/* transform:scaleX(1)  translateY(100px); */
 @media (max-width: 768px){
 overflow-x:auto;
 overflow-y: hidden;

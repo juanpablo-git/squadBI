@@ -1,7 +1,16 @@
 import styled from "styled-components";
 import { fadeIn } from "../home/animations"
 
-
+export const CaseContainer = styled.div`
+margin-top:200px;
+width:100%;
+min-height:100vh;
+display:flex;
+flex-direction:column;
+align-items:center;
+opacity:${(props)=>props.opacity == 1 ? 1 : 0};
+transition:1s;
+`
 export const Container = styled.div`
 
 width: 100%;
@@ -16,7 +25,7 @@ scroll-behavior:smooth;
 overflow-x:hidden;
 overflow-y: hidden;
 height:auto;
-transform:${({opacity})=>opacity == 1? "scaleX(1)" : "scaleX(0)"};
+transform:${({opacity})=>opacity == 1? " translateY(0px)" : "translateY(200px)"};
 transition:1s;
 width: 100%;
 display:flex;
