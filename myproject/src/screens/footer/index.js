@@ -10,9 +10,12 @@ export function Foter() {
                 </div>
                 <ul style={{ display: "flex", flexWrap: "wrap", paddingTop: "50px", paddingBottom: "50px", flexDirection: "row", justifyContent: "center", listStyle: "none", color: "#fff" }}>
                     <li style={{ margin: "10px" }}>
+                    <Ancora target="_blank" href="https://www.instagram.com/squad.analytics/">
+
                         <div style={{ display: "flex" }}>
                             <img src="./Group 12.svg" width="20" /> <p style={{ marginLeft: "10px" }}>@squadbi</p>
                         </div>
+                        </Ancora>
                     </li>
                     <li style={{ margin: "10px" }}>
                         <Ancora target="_blank" href="https://www.linkedin.com/company/gruposolanum/">
