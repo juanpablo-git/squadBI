@@ -1,3 +1,4 @@
+import { Ancora } from "../home/styled";
 import { ModalFuturo } from "../PorqueSquadBI/styled";
 import { Button, Modal, ModalContainerFuturo } from "./styled";
 
@@ -12,7 +13,10 @@ export default ({ opacity }) =>
                 <p style={{ fontWeight: 400, color: " #667085" }}>
                     O Squad Bi é uma plataforma de Bi & Analitics inovadora que pretende levar a cultura de gestão inteligente para empresas.
                 </p>
+                <Ancora  href="#contato">
+
                 <Button style={{ marginTop: 25 }}>Fale com um especialista</Button>
+                </Ancora>
             </ModalFuturo>
             <Modal style={{ marginLeft: "-20%", borderRadius: 20 }} ></Modal>
 

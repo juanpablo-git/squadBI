@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import {fadeIn} from "./animations"
+
 export const Containeer = styled.div`
 background-image: url("./background.png") ;
  height: 100vh; /* You must set a specified height */
@@ -8,6 +9,11 @@ background-image: url("./background.png") ;
   background-size: cover;
 width: 100%;
 height: 100vh;
+`
+export const Ancora = styled.a`
+text-decoration:none;
+color:white;
+
 `
 export const Header1 = styled.header`
 justify-content: space-around;

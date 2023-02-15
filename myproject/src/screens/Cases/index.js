@@ -1,7 +1,7 @@
 import { CaseContainer, ContainerCard, ContainerTitle, DivText, ModalContainer, P1, P2, Text } from "./styled"
 
 export default ({ opacity }) =>
-    <CaseContainer opacity={opacity.cases} >
+    <CaseContainer id="cases" opacity={opacity.cases} >
         <div style={{ width: "80%", }} >
 
             <DivText  >

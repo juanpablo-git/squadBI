@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-import {Button1,Button2,HanburguerButton, Containeer, DivLeft,DivRight, Dl, Dt, Header1,Header2, ModalContainer, Paragrafo, T2} from  "./styled"
+import {Button1,Button2,HanburguerButton, Containeer, DivLeft,DivRight, Dl, Dt, Header1,Header2, ModalContainer, Paragrafo, T2, Ancora} from  "./styled"
 import {Teste} from  "./animations"
 import AbsoluteMenu from "./AbsoluteMenu";
 
@@ -27,23 +27,31 @@ const [displayAbsoluteMenu,setDysplayAbsoluteMenu] = useState(0)
         <Dl>
 
             <Dt>
-                
+                <Ancora  href="#solucoes">
                 SOLUÇÕES
+                </Ancora>
             </Dt>
             <Dt>
+                <Ancora href="#visaoGeral">
                 VISÃO GERAL
+                </Ancora>
                 
             </Dt>
             <Dt>
-                PRODUTOS
+                <Ancora href="#cases">
+                    CLIESTES
+                </Ancora>
             </Dt>
 
             <Dt>
-                PREÇOS
-               
+                <Ancora href="#servico">
+                    SERVIÇO
+                </Ancora>
             </Dt>
             <Dt>
+                <Ancora href="#contato">
             <Button1>Fale com um especialista</Button1>
+            </Ancora>
             </Dt>
         </Dl>
 
@@ -64,7 +72,9 @@ const [displayAbsoluteMenu,setDysplayAbsoluteMenu] = useState(0)
                 eficientes no menor tempo possível.<br/>
                 </Paragrafo>
                 <br/>
+                <Ancora href="#contato">
                 <Button2>Fale com um especialista</Button2>
+                </Ancora>
             </ModalContainer>
         </DivLeft>
         <DivRight>

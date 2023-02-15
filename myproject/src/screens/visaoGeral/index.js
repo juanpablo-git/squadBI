@@ -4,7 +4,7 @@ import { Button, ButtonAngulo, Containeer, ContainersLogos, DivButton, DivTop, D
 export default function VisaoGeral({ opacity }) {
     const containerLogos = useRef()
     return (
-        <Containeer  >
+        <Containeer id="visaoGeral"  >
             <DivTop>
                 <TituloContainer style={{ marginBottom: 50 }} opacity={opacity.mc0} id="mc">
                     <T2>Empresas que utilizam  a SQUAD BI</T2>

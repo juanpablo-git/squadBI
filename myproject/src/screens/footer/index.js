@@ -1,3 +1,4 @@
+import { Ancora } from "../home/styled"
 import { Footer } from "./styled"
 export function Foter() {
     return (
@@ -14,9 +15,11 @@ export function Foter() {
                         </div>
                     </li>
                     <li style={{ margin: "10px" }}>
+                        <Ancora target="_blank" href="https://www.linkedin.com/company/gruposolanum/">
                         <div style={{ display: "flex" }}>
                             <img src="./linkedin.svg" width="20" /> <p style={{ marginLeft: "10px" }}>@squadbi</p>
                         </div>
+                        </Ancora>
                     </li>
                     <li style={{ margin: "10px" }}>
                         <div style={{ display: "flex" }}>
